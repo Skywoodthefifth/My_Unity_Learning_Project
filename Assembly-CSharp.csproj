@@ -38,9 +38,11 @@
   <ItemGroup>
      <Compile Include="Assets\Scripts\MonoBehaviours\Character.cs" />
      <Compile Include="Assets\Scripts\MonoBehaviours\Consumable.cs" />
+     <Compile Include="Assets\Scripts\MonoBehaviours\HealthBar.cs" />
      <Compile Include="Assets\Scripts\MonoBehaviours\MovementController.cs" />
      <Compile Include="Assets\Scripts\MonoBehaviours\Player.cs" />
      <Compile Include="Assets\Scripts\RoundCameraPos.cs" />
+     <Compile Include="Assets\Scripts\Scriptable Objects\HitPoints.cs" />
      <Compile Include="Assets\Scripts\Scriptable Objects\Item.cs" />
     <Reference Include="UnityEngine">
         <HintPath>C:\Program Files\Unity\Hub\Editor\2019.4.40f1\Editor\Data\Managed\UnityEngine\UnityEngine.dll</HintPath>
