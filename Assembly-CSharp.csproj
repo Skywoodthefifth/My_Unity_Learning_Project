@@ -36,13 +36,16 @@
     <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
   </PropertyGroup>
   <ItemGroup>
+     <Compile Include="Assets\Scripts\Managers\RPGCameraManager.cs" />
+     <Compile Include="Assets\Scripts\Managers\RPGGameManager.cs" />
      <Compile Include="Assets\Scripts\MonoBehaviours\Character.cs" />
      <Compile Include="Assets\Scripts\MonoBehaviours\Consumable.cs" />
      <Compile Include="Assets\Scripts\MonoBehaviours\HealthBar.cs" />
      <Compile Include="Assets\Scripts\MonoBehaviours\Inventory\Inventory.cs" />
+     <Compile Include="Assets\Scripts\MonoBehaviours\Inventory\Slot.cs" />
      <Compile Include="Assets\Scripts\MonoBehaviours\MovementController.cs" />
      <Compile Include="Assets\Scripts\MonoBehaviours\Player.cs" />
-     <Compile Include="Assets\Scripts\MonoBehaviours\Slot.cs" />
+     <Compile Include="Assets\Scripts\MonoBehaviours\SpawnPoint.cs" />
      <Compile Include="Assets\Scripts\RoundCameraPos.cs" />
      <Compile Include="Assets\Scripts\Scriptable Objects\HitPoints.cs" />
      <Compile Include="Assets\Scripts\Scriptable Objects\Item.cs" />
