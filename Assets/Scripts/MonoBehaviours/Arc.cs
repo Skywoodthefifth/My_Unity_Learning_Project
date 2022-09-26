@@ -25,7 +25,11 @@ public class Arc : MonoBehaviour
         while (percentComplete < 1.0f)
         {
             percentComplete += Time.deltaTime / duration;
-            transform.position = Vector3.Lerp(startPosition, destination, percentComplete);
+
+            var currentHeight = Mathf.Sin(Mathf.PI * percentComplete);
+            transform.position = Vector3.Lerp(startPosition, destination, percentComplete) + Vector3.up * currentHeight;
+
+            percentComplete += Time.deltaTime / duration;
             yield return null;
         }
         gameObject.SetActive(false);

@@ -43,6 +43,7 @@
      <Compile Include="Assets\Scripts\MonoBehaviours\Character.cs" />
      <Compile Include="Assets\Scripts\MonoBehaviours\Consumable.cs" />
      <Compile Include="Assets\Scripts\MonoBehaviours\Enemy.cs" />
+     <Compile Include="Assets\Scripts\MonoBehaviours\FlipX.cs" />
      <Compile Include="Assets\Scripts\MonoBehaviours\HealthBar.cs" />
      <Compile Include="Assets\Scripts\MonoBehaviours\Inventory\Inventory.cs" />
      <Compile Include="Assets\Scripts\MonoBehaviours\Inventory\Slot.cs" />

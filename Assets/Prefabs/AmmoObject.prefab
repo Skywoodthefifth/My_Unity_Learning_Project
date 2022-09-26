@@ -12,6 +12,9 @@ GameObject:
   - component: {fileID: 341522639635309667}
   - component: {fileID: 341522639635309666}
   - component: {fileID: 6973656938333968314}
+  - component: {fileID: 3181363399380336820}
+  - component: {fileID: 3597239302467715651}
+  - component: {fileID: -3917405418748377869}
   m_Layer: 11
   m_Name: AmmoObject
   m_TagString: Untagged
@@ -27,7 +30,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 341522639635309665}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -8.068583, y: 0.50866294, z: -15.317005}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -112,4 +115,49 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 046875344e58c834daeaf8617da2ad34, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  damageInflicted: 0
+  damageInflicted: 1
+--- !u!114 &3181363399380336820
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 341522639635309665}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dd6775ec94674e740b845914e382e81d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &3597239302467715651
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 341522639635309665}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 255e81f6986a13c4ebd09f87676755d9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!50 &-3917405418748377869
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 341522639635309665}
+  m_BodyType: 0
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: 0
+  m_GravityScale: 0
+  m_Material: {fileID: 0}
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 4
