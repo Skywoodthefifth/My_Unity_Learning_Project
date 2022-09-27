@@ -8,15 +8,6 @@ public class MovementController : MonoBehaviour
     Vector2 movement = new Vector2();
 
     Animator animator;
-    string animationState = "AnimationState";
-
-    enum CharStates
-    {
-        Idle,
-        Walk,
-        Attack,
-        Die,
-    }
 
     Rigidbody2D rb2D;
 
@@ -63,14 +54,15 @@ public class MovementController : MonoBehaviour
     private void UpdateState()
     {
 
-        if (movement.x != 0 || movement.y != 0)
+        if (Mathf.Approximately(movement.x, 0.0f) && Mathf.Approximately(movement.y, 0.0f))
         {
-            animator.SetInteger(animationState, (int)CharStates.Walk);
+            animator.SetBool("isWalking", false);
         }
-        else if (movement.x == 0 && movement.y == 0)
+        else
         {
-            animator.SetInteger(animationState, (int)CharStates.Idle);
+            animator.SetBool("isWalking", true);
         }
-
+        animator.SetFloat("xDir", movement.x);
+        animator.SetFloat("yDir", movement.y);
     }
 }

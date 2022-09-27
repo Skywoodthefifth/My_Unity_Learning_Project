@@ -50,7 +50,7 @@ public class Player : Character
                 }
 
                 if (shouldDisappear)
-                    collision.gameObject.SetActive(false);
+                    Destroy(collision.gameObject);
             }
         }
     }
@@ -71,6 +71,8 @@ interval)
     {
         while (true)
         {
+            StartCoroutine(FlickerCharacter());
+
             hitPoints.value = hitPoints.value - damage;
 
             if (hitPoints.value <= float.Epsilon)
@@ -95,6 +97,8 @@ interval)
 
         Destroy(healthBar.gameObject);
         Destroy(inventory.gameObject);
+
+        RPGGameManager.sharedInstance.SetupScene();
     }
 
     public override void ResetCharacter()

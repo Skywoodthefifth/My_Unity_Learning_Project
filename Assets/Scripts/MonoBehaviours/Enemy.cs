@@ -53,6 +53,8 @@ interval)
     {
         while (true)
         {
+            StartCoroutine(FlickerCharacter());
+
             hitPoints = hitPoints - damage;
             if (hitPoints <= float.Epsilon)
             {
@@ -75,5 +77,16 @@ interval)
     public override void ResetCharacter()
     {
         hitPoints = startingHitPoints;
+    }
+
+    public GameObject dropPrefab;
+
+    public override void KillCharacter()
+    {
+        GameObject drop = Instantiate(dropPrefab);
+
+        drop.transform.position = transform.position;
+
+        base.KillCharacter();
     }
 }

@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class FlipX : MonoBehaviour
 {
-
+    SpriteRenderer SpriteRenderer;
 
     bool isFacingRight;
 
@@ -13,6 +13,7 @@ public class FlipX : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        SpriteRenderer = GetComponent<SpriteRenderer>();
 
         isFacingRight = true;
 
@@ -40,7 +41,7 @@ public class FlipX : MonoBehaviour
 
             isFacingRight = true;
 
-            GetComponent<SpriteRenderer>().flipX = !isFacingRight;
+            SpriteRenderer.flipX = !isFacingRight;
 
 
         }
@@ -49,7 +50,7 @@ public class FlipX : MonoBehaviour
 
             isFacingRight = false;
 
-            GetComponent<SpriteRenderer>().flipX = !isFacingRight;
+            SpriteRenderer.flipX = !isFacingRight;
 
         }
     }

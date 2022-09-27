@@ -169,6 +169,8 @@ MonoBehaviour:
   maxHitPoints: 2
   startingHitPoints: 2
   damageStrength: 1
+  dropPrefab: {fileID: 5973976036664657457, guid: 7e45f64325395cd4fa1872433b59c70d,
+    type: 3}
 --- !u!58 &144749018
 CircleCollider2D:
   m_ObjectHideFlags: 0
