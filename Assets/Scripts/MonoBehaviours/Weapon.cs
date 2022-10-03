@@ -38,7 +38,7 @@ public class Weapon : MonoBehaviour
         }
         for (int i = 0; i < poolSize; i++)
         {
-            GameObject ammoObject = Instantiate(ammoPrefab);
+            GameObject ammoObject = Instantiate(ammoPrefab, Vector3.zero, Quaternion.identity);
             ammoObject.SetActive(false);
             ammoPool.Add(ammoObject);
         }

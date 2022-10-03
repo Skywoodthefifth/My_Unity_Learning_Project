@@ -83,9 +83,9 @@ interval)
 
     public override void KillCharacter()
     {
-        GameObject drop = Instantiate(dropPrefab);
+        GameObject drop = Instantiate(dropPrefab, transform.position, Quaternion.identity);
 
-        drop.transform.position = transform.position;
+        //drop.transform.position = transform.position;
 
         base.KillCharacter();
     }

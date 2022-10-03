@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using Photon.Pun;
 
 public class MovementController : MonoBehaviour
 {
@@ -11,8 +12,7 @@ public class MovementController : MonoBehaviour
 
     Rigidbody2D rb2D;
 
-
-
+    PhotonView view;
 
 
     // Start is called before the first frame update
@@ -20,7 +20,7 @@ public class MovementController : MonoBehaviour
     {
         rb2D = GetComponent<Rigidbody2D>();
 
-
+        view = GetComponent<PhotonView>();
 
         animator = GetComponent<Animator>();
 
@@ -29,15 +29,18 @@ public class MovementController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        UpdateState();
-
+        if (view.IsMine)
+        {
+            UpdateState();
+        }
     }
 
     void FixedUpdate()
     {
-
-        MoveCharacter();
-
+        if (view.IsMine)
+        {
+            MoveCharacter();
+        }
     }
 
     private void MoveCharacter()

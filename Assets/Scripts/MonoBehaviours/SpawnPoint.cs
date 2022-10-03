@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using Photon.Pun;
 
 public class SpawnPoint : MonoBehaviour
 {
@@ -20,7 +21,7 @@ public class SpawnPoint : MonoBehaviour
     {
         if (prefabToSpawn != null)
         {
-            return Instantiate(prefabToSpawn, transform.position, Quaternion.identity);
+            return PhotonNetwork.Instantiate(prefabToSpawn.name, transform.position, Quaternion.identity);
         }
         return null;
     }
