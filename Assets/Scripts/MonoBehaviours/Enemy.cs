@@ -1,5 +1,6 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
+using Photon.Pun;
 using UnityEngine;
 
 public class Enemy : Character
@@ -16,7 +17,10 @@ public class Enemy : Character
     // Update is called once per frame
     void Update()
     {
-
+        // if (hitPoints <= float.Epsilon)
+        // {
+        //     KillCharacter();
+        // }
     }
 
     private void OnEnable()
@@ -67,7 +71,6 @@ interval)
             }
             else
             {
-
                 break;
             }
 
@@ -83,10 +86,14 @@ interval)
 
     public override void KillCharacter()
     {
-        GameObject drop = Instantiate(dropPrefab, transform.position, Quaternion.identity);
 
-        //drop.transform.position = transform.position;
+        if (PhotonNetwork.IsMasterClient)
+        {
+            GameObject drop = RPGGameManager.sharedInstance.InstantiateObject(dropPrefab, transform.position, Quaternion.identity);
 
-        base.KillCharacter();
+            //drop.transform.position = transform.position;
+
+            base.KillCharacter();
+        }
     }
 }

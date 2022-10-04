@@ -1,7 +1,9 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using Photon.Pun;
 
+[RequireComponent(typeof(PhotonView))]
 public abstract class Character : MonoBehaviour
 {
 
@@ -11,7 +13,7 @@ public abstract class Character : MonoBehaviour
 
     public virtual void KillCharacter()
     {
-        Destroy(gameObject);
+        RPGGameManager.sharedInstance.DestroyObject(gameObject);
     }
 
     public abstract void ResetCharacter();

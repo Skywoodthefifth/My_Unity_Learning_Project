@@ -1,10 +1,13 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using Photon.Pun;
 
 [RequireComponent(typeof(Animator))]
 public class Weapon : MonoBehaviour
 {
+
+    PhotonView view;
 
     bool isFiring;
 
@@ -26,27 +29,34 @@ public class Weapon : MonoBehaviour
 
 
     public GameObject ammoPrefab;
-    List<GameObject> ammoPool;
-    public int poolSize;
+    //List<GameObject> ammoPool;
+    //public int poolSize;
 
 
     void Awake()
     {
-        if (ammoPool == null)
-        {
-            ammoPool = new List<GameObject>();
-        }
-        for (int i = 0; i < poolSize; i++)
-        {
-            GameObject ammoObject = Instantiate(ammoPrefab, Vector3.zero, Quaternion.identity);
-            ammoObject.SetActive(false);
-            ammoPool.Add(ammoObject);
-        }
+
+
+
     }
     // Start is called before the first frame update
     void Start()
     {
 
+        // if (ammoPool == null)
+        // {
+        //     ammoPool = new List<GameObject>();
+        // }
+
+        view = GetComponent<PhotonView>();
+
+
+        // for (int i = 0; i < poolSize; i++)
+        // {
+        //     GameObject ammoObject = RPGGameManager.sharedInstance.InstantiateObject(ammoPrefab, Vector3.zero, Quaternion.identity);
+        //     ammoObject.SetActive(false);
+        //     ammoPool.Add(ammoObject);
+        // }
 
 
         animator = GetComponent<Animator>();
@@ -65,32 +75,36 @@ public class Weapon : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetMouseButtonDown(0))
+        if (view.IsMine)
         {
-            isFiring = true;
-            FireAmmo();
+            if (Input.GetMouseButtonDown(0))
+            {
+                isFiring = true;
+                FireAmmo();
+            }
         }
+
         UpdateState();
     }
 
-    GameObject SpawnAmmo(Vector3 location)
-    {
-        foreach (GameObject ammo in ammoPool)
-        {
-            if (ammo.activeSelf == false)
-            {
-                ammo.SetActive(true);
-                ammo.transform.position = location;
-                return ammo;
-            }
-        }
-        return null;
-    }
+    // GameObject SpawnAmmo(Vector3 location)
+    // {
+    //     foreach (GameObject ammo in ammoPool)
+    //     {
+    //         if (ammo.activeSelf == false)
+    //         {
+    //             ammo.SetActive(true);
+    //             ammo.transform.position = location;
+    //             return ammo;
+    //         }
+    //     }
+    //     return null;
+    // }
 
     void FireAmmo()
     {
         Vector3 mousePosition = Camera.main.ScreenToWorldPoint(Input.mousePosition);
-        GameObject ammo = SpawnAmmo(transform.position);
+        GameObject ammo = RPGGameManager.sharedInstance.InstantiateObject(ammoPrefab, transform.position, Quaternion.identity); //SpawnAmmo(transform.position);
         if (ammo != null)
         {
             Arc arcScript = ammo.GetComponent<Arc>();
@@ -101,7 +115,12 @@ public class Weapon : MonoBehaviour
 
     void OnDestroy()
     {
-        ammoPool = null;
+        // foreach (GameObject ammo in ammoPool)
+        // {
+        //     RPGGameManager.sharedInstance.DestroyObject(ammo);
+        // }
+
+        // ammoPool = null;
     }
 
     float GetSlope(Vector2 pointOne, Vector2 pointTwo)

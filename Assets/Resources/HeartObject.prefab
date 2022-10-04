@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 6318802315726878228}
   - component: {fileID: 6600445211543297182}
   - component: {fileID: 2049449994568242409}
+  - component: {fileID: 732504602485631459}
   m_Layer: 9
   m_Name: HeartObject
   m_TagString: CanBePickedUp
@@ -132,3 +133,26 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   item: {fileID: 11400000, guid: 1297ac96caf61174a869016a192b9162, type: 2}
+--- !u!114 &732504602485631459
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5973976036664657457}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: aa584fbee541324448dd18d8409c7a41, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ObservedComponentsFoldoutOpen: 1
+  Group: 0
+  prefixField: -1
+  Synchronization: 3
+  OwnershipTransfer: 1
+  observableSearch: 2
+  ObservedComponents:
+  - {fileID: 0}
+  sceneViewId: 0
+  InstantiationId: 0
+  isRuntimeInstantiated: 0

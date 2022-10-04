@@ -1,5 +1,6 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
+using Photon.Pun;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -17,27 +18,27 @@ public class Inventory : MonoBehaviour
 
     public void CreateSlots()
     {
-
-        if (slotPrefab != null)
-        {
-
-            for (int i = 0; i < numSlots; i++)
+        
+        
+            if (slotPrefab != null)
             {
+                for (int i = 0; i < numSlots; i++)
+                {
 
-                GameObject newSlot = Instantiate(slotPrefab);
-                newSlot.name = "ItemSlot_" + i;
+                    GameObject newSlot = Instantiate(slotPrefab);
+                    newSlot.name = "ItemSlot_" + i;
 
-                newSlot.transform.SetParent(gameObject.transform.
-               GetChild(0).transform);
+                    newSlot.transform.SetParent(gameObject.transform.
+                   GetChild(0).transform);
 
-                slots[i] = newSlot;
+                    slots[i] = newSlot;
 
-
-
-                itemImages[i] = newSlot.transform.GetChild(1).
-               GetComponent<Image>();
+                    itemImages[i] = newSlot.transform.GetChild(1).
+                   GetComponent<Image>();
+                }
             }
-        }
+        
+
     }
 
     public bool AddItem(Item itemToAdd)

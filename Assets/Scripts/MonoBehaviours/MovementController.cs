@@ -29,10 +29,7 @@ public class MovementController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (view.IsMine)
-        {
-            UpdateState();
-        }
+        UpdateState();
     }
 
     void FixedUpdate()

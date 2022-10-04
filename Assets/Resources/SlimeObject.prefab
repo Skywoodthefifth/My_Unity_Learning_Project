@@ -172,7 +172,7 @@ MonoBehaviour:
   maxHitPoints: 2
   startingHitPoints: 2
   damageStrength: 1
-  dropPrefab: {fileID: 5973976036664657457, guid: 7e45f64325395cd4fa1872433b59c70d,
+  dropPrefab: {fileID: 1950132718125007768, guid: 70cd169bed55fb34c9322242dbfbba5a,
     type: 3}
 --- !u!58 &144749018
 CircleCollider2D:
@@ -234,10 +234,11 @@ MonoBehaviour:
   Group: 0
   prefixField: -1
   Synchronization: 3
-  OwnershipTransfer: 0
+  OwnershipTransfer: 1
   observableSearch: 2
   ObservedComponents:
   - {fileID: -8984120065663427637}
+  - {fileID: -513054349220014455}
   sceneViewId: 0
   InstantiationId: 0
   isRuntimeInstantiated: 0
@@ -288,5 +289,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ShowLayerWeightsInspector: 1
   ShowParameterInspector: 1
-  m_SynchronizeParameters: []
-  m_SynchronizeLayers: []
+  m_SynchronizeParameters:
+  - Type: 4
+    SynchronizeType: 1
+    Name: isWalking
+  m_SynchronizeLayers:
+  - SynchronizeType: 0
+    LayerIndex: 0

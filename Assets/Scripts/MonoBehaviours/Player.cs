@@ -20,38 +20,53 @@ public class Player : Character
         ResetCharacter();
     }
 
+    void Update()
+    {
+        // if (hitPoints.value <= float.Epsilon)
+        // {
+        //     KillCharacter();
+        // }
+    }
+
 
     void OnTriggerEnter2D(Collider2D collision)
     {
         if (collision.gameObject.CompareTag("CanBePickedUp"))
         {
-            Item hitObject = collision.gameObject.GetComponent<Consumable>().item;
-
-            if (hitObject != null)
+            if (collision.gameObject.GetComponent<PhotonView>().IsMine == false)
             {
-                //print("Hit: " + hitObject.objectName);
+                collision.gameObject.GetComponent<PhotonView>().TransferOwnership(PhotonNetwork.LocalPlayer.ActorNumber);
+            }
+            else
+            {
+                Item hitObject = collision.gameObject.GetComponent<Consumable>().item;
 
-                bool shouldDisappear = false;
-
-                switch (hitObject.itemType)
+                if (hitObject != null)
                 {
-                    case Item.ItemType.COIN:
+                    //print("Hit: " + hitObject.objectName);
 
-                        shouldDisappear = inventory.AddItem(hitObject);
+                    bool shouldDisappear = false;
 
-                        break;
+                    switch (hitObject.itemType)
+                    {
+                        case Item.ItemType.COIN:
 
-                    case Item.ItemType.HEALTH:
+                            shouldDisappear = inventory.AddItem(hitObject);
+
+                            break;
+
+                        case Item.ItemType.HEALTH:
 
 
-                        shouldDisappear = AdjustHitPoints(hitObject.quantity);
-                        break;
-                    default:
-                        break;
+                            shouldDisappear = AdjustHitPoints(hitObject.quantity);
+                            break;
+                        default:
+                            break;
+                    }
+
+                    if (shouldDisappear)
+                        RPGGameManager.sharedInstance.DestroyObject(collision.gameObject);
                 }
-
-                if (shouldDisappear)
-                    Destroy(collision.gameObject);
             }
         }
     }
@@ -94,21 +109,26 @@ interval)
 
     public override void KillCharacter()
     {
-        base.KillCharacter();
+        if (GetComponent<PhotonView>().IsMine)
+        {
 
-        Destroy(healthBar.gameObject);
-        Destroy(inventory.gameObject);
+            Destroy(healthBar.gameObject);
+            Destroy(inventory.gameObject);
 
-        RPGGameManager.sharedInstance.SetupScene();
+            base.KillCharacter();
+        }
     }
 
     public override void ResetCharacter()
     {
-        inventory = Instantiate(inventoryPrefab);
+        if (GetComponent<PhotonView>().IsMine)
+        {
+            inventory = Instantiate(inventoryPrefab);
 
-        healthBar = Instantiate(healthBarPrefab);
-        healthBar.character = this;
+            healthBar = Instantiate(healthBarPrefab);
+            healthBar.character = this;
 
-        hitPoints.value = startingHitPoints;
+            hitPoints.value = startingHitPoints;
+        }
     }
 }

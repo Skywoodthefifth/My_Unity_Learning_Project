@@ -218,7 +218,6 @@ MonoBehaviour:
   weaponVelocity: 2
   ammoPrefab: {fileID: 341522639635309665, guid: c62fb59931e77fb45b30927c26eed2e3,
     type: 3}
-  poolSize: 7
 --- !u!114 &2403643940262750727
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -259,8 +258,8 @@ MonoBehaviour:
     SynchronizeEnabled: 1
     TeleportEnabled: 1
     TeleportIfDistanceGreaterThan: 3
-    InterpolateOption: 2
-    InterpolateMoveTowardsSpeed: 1
+    InterpolateOption: 1
+    InterpolateMoveTowardsSpeed: 5
     InterpolateLerpSpeed: 1
     ExtrapolateOption: 0
     ExtrapolateSpeed: 1
@@ -292,22 +291,22 @@ MonoBehaviour:
   ShowParameterInspector: 1
   m_SynchronizeParameters:
   - Type: 4
-    SynchronizeType: 0
+    SynchronizeType: 1
     Name: isWalking
   - Type: 1
-    SynchronizeType: 0
+    SynchronizeType: 1
     Name: xDir
   - Type: 1
-    SynchronizeType: 0
+    SynchronizeType: 1
     Name: yDir
   - Type: 4
-    SynchronizeType: 0
+    SynchronizeType: 1
     Name: isFiring
   - Type: 1
-    SynchronizeType: 0
+    SynchronizeType: 1
     Name: fireXDir
   - Type: 1
-    SynchronizeType: 0
+    SynchronizeType: 1
     Name: fireYDir
   m_SynchronizeLayers:
   - SynchronizeType: 0

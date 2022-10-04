@@ -21,6 +21,18 @@ public class SpawnPoint : MonoBehaviour
     {
         if (prefabToSpawn != null)
         {
+            if (PhotonNetwork.IsMasterClient)
+            {
+                return RPGGameManager.sharedInstance.InstantiateObject(prefabToSpawn, transform.position, Quaternion.identity);
+            }
+        }
+        return null;
+    }
+
+    public GameObject SpawnPlayerObject()
+    {
+        if (prefabToSpawn != null)
+        {
             return PhotonNetwork.Instantiate(prefabToSpawn.name, transform.position, Quaternion.identity);
         }
         return null;
