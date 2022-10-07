@@ -33,41 +33,42 @@ public class Player : Character
     {
         if (collision.gameObject.CompareTag("CanBePickedUp"))
         {
-            if (collision.gameObject.GetComponent<PhotonView>().IsMine == false)
-            {
-                collision.gameObject.GetComponent<PhotonView>().TransferOwnership(PhotonNetwork.LocalPlayer.ActorNumber);
-            }
-            else
-            {
-                Item hitObject = collision.gameObject.GetComponent<Consumable>().item;
+            // if (collision.gameObject.GetComponent<PhotonView>().IsMine == false)
+            // {
+            //     collision.gameObject.GetComponent<PhotonView>().TransferOwnership(PhotonNetwork.LocalPlayer.ActorNumber);
+            // }
 
-                if (hitObject != null)
+            //if (collision.gameObject.GetComponent<PhotonView>().IsMine)
+            //{
+            Item hitObject = collision.gameObject.GetComponent<Consumable>().item;
+
+            if (hitObject != null)
+            {
+                //print("Hit: " + hitObject.objectName);
+
+                bool shouldDisappear = false;
+
+                switch (hitObject.itemType)
                 {
-                    //print("Hit: " + hitObject.objectName);
+                    case Item.ItemType.COIN:
 
-                    bool shouldDisappear = false;
+                        shouldDisappear = inventory.AddItem(hitObject);
 
-                    switch (hitObject.itemType)
-                    {
-                        case Item.ItemType.COIN:
+                        break;
 
-                            shouldDisappear = inventory.AddItem(hitObject);
-
-                            break;
-
-                        case Item.ItemType.HEALTH:
+                    case Item.ItemType.HEALTH:
 
 
-                            shouldDisappear = AdjustHitPoints(hitObject.quantity);
-                            break;
-                        default:
-                            break;
-                    }
-
-                    if (shouldDisappear)
-                        RPGGameManager.sharedInstance.DestroyObject(collision.gameObject);
+                        shouldDisappear = AdjustHitPoints(hitObject.quantity);
+                        break;
+                    default:
+                        break;
                 }
+
+                if (shouldDisappear)
+                    RPGGameManager.sharedInstance.DestroyObject(collision.gameObject);
             }
+            //}
         }
     }
 

@@ -59,11 +59,21 @@ public class RPGGameManager : MonoBehaviourPunCallbacks
 
     public void DestroyObject(GameObject gameObjectToDestroy)
     {
-        PhotonNetwork.Destroy(gameObjectToDestroy);
+
+        if (gameObjectToDestroy.GetComponent<PhotonView>().IsMine == false)
+            GetComponent<PhotonView>().RPC("DestroyObject", RpcTarget.Others, gameObjectToDestroy.name);
+        else
+            PhotonNetwork.Destroy(gameObjectToDestroy);
     }
 
     public GameObject InstantiateObject(GameObject gameObjectToInstantiate, Vector3 position, Quaternion rotation)
     {
         return PhotonNetwork.Instantiate(gameObjectToInstantiate.name, position, rotation);
+    }
+
+    [PunRPC]
+    void DestroyObject(string objectName)
+    {
+        PhotonNetwork.Destroy(GameObject.Find(objectName));
     }
 }
