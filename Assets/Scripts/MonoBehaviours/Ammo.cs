@@ -20,7 +20,7 @@ public class Ammo : MonoBehaviour
 
     void OnTriggerEnter2D(Collider2D collision)
     {
-        if (collision is BoxCollider2D)
+        if (collision is BoxCollider2D && gameObject != null)
         {
             Enemy enemy = collision.gameObject.GetComponent<Enemy>();
 
@@ -34,7 +34,11 @@ public class Ammo : MonoBehaviour
     [PunRPC]
     void DamageCoroutine(string name)
     {
-        Enemy enemy = GameObject.Find(name).GetComponent<Enemy>();
-        StartCoroutine(enemy.DamageCharacter(damageInflicted, 0.0f));
+        if (gameObject != null && gameObject.activeSelf == true)
+        {
+            Enemy enemy = GameObject.Find(name).GetComponent<Enemy>();
+            StartCoroutine(enemy.DamageCharacter(damageInflicted, 0.0f));
+        }
+
     }
 }

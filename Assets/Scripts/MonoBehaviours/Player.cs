@@ -42,9 +42,9 @@ public class Player : Character
             //{
             Item hitObject = collision.gameObject.GetComponent<Consumable>().item;
 
-            if (hitObject != null)
+            if (hitObject != null && collision.gameObject != null)
             {
-                //print("Hit: " + hitObject.objectName);
+                print("Hit: " + hitObject.objectName);
 
                 bool shouldDisappear = false;
 
