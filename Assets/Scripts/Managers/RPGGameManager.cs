@@ -27,7 +27,7 @@ public class RPGGameManager : MonoBehaviourPunCallbacks
     {
         SetupScene();
 
-        DontDestroyOnLoad(this.gameObject);
+        //DontDestroyOnLoad(this.gameObject);
     }
 
     void Update()
@@ -61,7 +61,7 @@ public class RPGGameManager : MonoBehaviourPunCallbacks
     {
 
         if (gameObjectToDestroy.GetComponent<PhotonView>().IsMine == false)
-            GetComponent<PhotonView>().RPC("DestroyObject", RpcTarget.Others, gameObjectToDestroy.name);
+            GetComponent<PhotonView>().RPC("OthersDestroyObject", RpcTarget.Others, gameObjectToDestroy.name);
         else
             PhotonNetwork.Destroy(gameObjectToDestroy);
     }
@@ -72,7 +72,7 @@ public class RPGGameManager : MonoBehaviourPunCallbacks
     }
 
     [PunRPC]
-    void DestroyObject(string objectName)
+    void OthersDestroyObject(string objectName)
     {
         PhotonNetwork.Destroy(GameObject.Find(objectName));
     }
