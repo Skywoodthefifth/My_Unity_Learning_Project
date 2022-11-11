@@ -61,7 +61,7 @@ public class RPGGameManager : MonoBehaviourPunCallbacks
     {
 
         if (gameObjectToDestroy.GetComponent<PhotonView>().IsMine == false)
-            GetComponent<PhotonView>().RPC("OthersDestroyObject", RpcTarget.Others, gameObjectToDestroy.name);
+            GetComponent<PhotonView>().RPC("OthersDestroyObject", RpcTarget.Others, gameObjectToDestroy.GetComponent<PhotonView>().ViewID);
         else
             PhotonNetwork.Destroy(gameObjectToDestroy);
     }
@@ -72,8 +72,11 @@ public class RPGGameManager : MonoBehaviourPunCallbacks
     }
 
     [PunRPC]
-    void OthersDestroyObject(string objectName)
+    void OthersDestroyObject(int viewID)
     {
-        PhotonNetwork.Destroy(GameObject.Find(objectName));
+        if (PhotonView.Find(viewID).IsMine)
+        {
+            PhotonNetwork.Destroy(PhotonView.Find(viewID).gameObject);
+        }
     }
 }

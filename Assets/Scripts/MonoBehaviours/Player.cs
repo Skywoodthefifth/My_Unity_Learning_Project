@@ -5,7 +5,10 @@ using UnityEngine;
 
 public class Player : Character
 {
-    public HitPoints hitPoints;
+    //public HitPoints hitPoints;
+    [HideInInspector]
+    public float hitPoints;
+
     public HealthBar healthBarPrefab;
 
     HealthBar healthBar;
@@ -31,15 +34,9 @@ public class Player : Character
 
     void OnTriggerEnter2D(Collider2D collision)
     {
-        if (collision.gameObject.CompareTag("CanBePickedUp"))
+        if (collision.gameObject.CompareTag("CanBePickedUp") && GetComponent<PhotonView>().IsMine)
         {
-            // if (collision.gameObject.GetComponent<PhotonView>().IsMine == false)
-            // {
-            //     collision.gameObject.GetComponent<PhotonView>().TransferOwnership(PhotonNetwork.LocalPlayer.ActorNumber);
-            // }
 
-            //if (collision.gameObject.GetComponent<PhotonView>().IsMine)
-            //{
             Item hitObject = collision.gameObject.GetComponent<Consumable>().item;
 
             if (hitObject != null && collision.gameObject != null)
@@ -68,35 +65,48 @@ public class Player : Character
                 if (shouldDisappear)
                     RPGGameManager.sharedInstance.DestroyObject(collision.gameObject);
             }
-            //}
+
         }
     }
 
     public bool AdjustHitPoints(int amount)
     {
-        if (hitPoints.value < maxHitPoints)
+        if (GetComponent<PhotonView>().IsMine)
         {
-            hitPoints.value = hitPoints.value + amount;
-            print("Adjusted HitPoints by: " + amount + ". New value: " + hitPoints.value);
-            return true;
+
+            if (hitPoints < maxHitPoints)
+            {
+                hitPoints = hitPoints + amount;
+                print("Adjusted HitPoints by: " + amount + ". New value: " + hitPoints);
+                return true;
+            }
+            return false;
         }
+
         return false;
     }
 
     public override IEnumerator DamageCharacter(int damage, float
 interval)
     {
+
         while (true)
         {
             StartCoroutine(FlickerCharacter());
 
-            hitPoints.value = hitPoints.value - damage;
-
-            if (hitPoints.value <= float.Epsilon)
+            if (GetComponent<PhotonView>().IsMine)
             {
-                KillCharacter();
-                break;
+
+                hitPoints = hitPoints - damage;
+
+                if (hitPoints <= float.Epsilon)
+                {
+                    KillCharacter();
+                    break;
+                }
+
             }
+
             if (interval > float.Epsilon)
             {
                 yield return new WaitForSeconds(interval);
@@ -106,6 +116,7 @@ interval)
                 break;
             }
         }
+
     }
 
     public override void KillCharacter()
@@ -129,7 +140,7 @@ interval)
             healthBar = Instantiate(healthBarPrefab);
             healthBar.character = this;
 
-            hitPoints.value = startingHitPoints;
+            hitPoints = startingHitPoints;
         }
     }
 }

@@ -234,7 +234,7 @@ MonoBehaviour:
   Group: 0
   prefixField: -1
   Synchronization: 3
-  OwnershipTransfer: 1
+  OwnershipTransfer: 0
   observableSearch: 2
   ObservedComponents:
   - {fileID: -8984120065663427637}
@@ -294,5 +294,5 @@ MonoBehaviour:
     SynchronizeType: 1
     Name: isWalking
   m_SynchronizeLayers:
-  - SynchronizeType: 0
+  - SynchronizeType: 1
     LayerIndex: 0

@@ -22,9 +22,9 @@ public class Ammo : MonoBehaviour
     {
         if (collision is BoxCollider2D && gameObject != null)
         {
-            Enemy enemy = collision.gameObject.GetComponent<Enemy>();
+            //Enemy enemy = collision.gameObject.GetComponent<Enemy>();
 
-            GetComponent<PhotonView>().RPC("DamageCoroutine", RpcTarget.All, enemy.name);
+            GetComponent<PhotonView>().RPC("DamageCoroutine", RpcTarget.All, collision.gameObject.GetComponent<PhotonView>().ViewID);
 
             //RPGGameManager.sharedInstance.DestroyObject(gameObject);
             gameObject.SetActive(false);
@@ -32,11 +32,11 @@ public class Ammo : MonoBehaviour
     }
 
     [PunRPC]
-    void DamageCoroutine(string name)
+    void DamageCoroutine(int viewID)
     {
         if (gameObject != null && gameObject.activeSelf == true)
         {
-            Enemy enemy = GameObject.Find(name).GetComponent<Enemy>();
+            Enemy enemy = PhotonView.Find(viewID).gameObject.GetComponent<Enemy>();
             StartCoroutine(enemy.DamageCharacter(damageInflicted, 0.0f));
         }
 

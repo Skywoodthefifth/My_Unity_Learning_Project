@@ -9947,8 +9947,12 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: -9148665831036860686, guid: 52bb9aec973b7b54995143db1c4effd0,
+    - target: {fileID: 301842851493246150, guid: 52bb9aec973b7b54995143db1c4effd0,
         type: 3}
+      propertyPath: repeatInterval
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
       propertyPath: sceneViewId
       value: 7
       objectReference: {fileID: 0}
@@ -13248,8 +13252,12 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: -9148665831036860686, guid: 52bb9aec973b7b54995143db1c4effd0,
+    - target: {fileID: 301842851493246150, guid: 52bb9aec973b7b54995143db1c4effd0,
         type: 3}
+      propertyPath: repeatInterval
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
       propertyPath: sceneViewId
       value: 4
       objectReference: {fileID: 0}
@@ -13262,7 +13270,7 @@ PrefabInstance:
     - target: {fileID: 301842851493246150, guid: 52bb9aec973b7b54995143db1c4effd0,
         type: 3}
       propertyPath: repeatInterval
-      value: 20
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 1430360336200723614, guid: 52bb9aec973b7b54995143db1c4effd0,
         type: 3}
@@ -15210,8 +15218,7 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: -9148665831036860686, guid: 52bb9aec973b7b54995143db1c4effd0,
-        type: 3}
+    - target: {fileID: 0}
       propertyPath: sceneViewId
       value: 5
       objectReference: {fileID: 0}
@@ -15219,12 +15226,11 @@ PrefabInstance:
         type: 3}
       propertyPath: prefabToSpawn
       value: 
-      objectReference: {fileID: 2248024497717184545, guid: 58447c4835c267e49bfabf7b3ef7159d,
-        type: 3}
+      objectReference: {fileID: 0}
     - target: {fileID: 301842851493246150, guid: 52bb9aec973b7b54995143db1c4effd0,
         type: 3}
       propertyPath: repeatInterval
-      value: 5
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1430360336200723614, guid: 52bb9aec973b7b54995143db1c4effd0,
         type: 3}
@@ -15306,8 +15312,7 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: -9148665831036860686, guid: 52bb9aec973b7b54995143db1c4effd0,
-        type: 3}
+    - target: {fileID: 0}
       propertyPath: sceneViewId
       value: 3
       objectReference: {fileID: 0}
@@ -15315,12 +15320,11 @@ PrefabInstance:
         type: 3}
       propertyPath: prefabToSpawn
       value: 
-      objectReference: {fileID: 2248024497717184545, guid: 58447c4835c267e49bfabf7b3ef7159d,
-        type: 3}
+      objectReference: {fileID: 0}
     - target: {fileID: 301842851493246150, guid: 52bb9aec973b7b54995143db1c4effd0,
         type: 3}
       propertyPath: repeatInterval
-      value: 5
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1430360336200723614, guid: 52bb9aec973b7b54995143db1c4effd0,
         type: 3}
@@ -15448,8 +15452,7 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: -9148665831036860686, guid: 52bb9aec973b7b54995143db1c4effd0,
-        type: 3}
+    - target: {fileID: 0}
       propertyPath: sceneViewId
       value: 2
       objectReference: {fileID: 0}

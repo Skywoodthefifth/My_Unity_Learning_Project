@@ -33,7 +33,8 @@ public class SpawnPoint : MonoBehaviour
     {
         if (prefabToSpawn != null)
         {
-            return PhotonNetwork.Instantiate(prefabToSpawn.name, transform.position, Quaternion.identity);
+            //return PhotonNetwork.Instantiate(prefabToSpawn.name, transform.position, Quaternion.identity);
+            return RPGGameManager.sharedInstance.InstantiateObject(prefabToSpawn, transform.position, Quaternion.identity);
         }
         return null;
     }

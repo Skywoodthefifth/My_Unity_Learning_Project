@@ -5,7 +5,7 @@ using UnityEngine;
 
 public class Enemy : Character
 {
-    float hitPoints;
+    private float hitPoints;
     public int damageStrength;
     Coroutine damageCoroutine;
     // Start is called before the first frame update
@@ -59,12 +59,16 @@ interval)
         {
             StartCoroutine(FlickerCharacter());
 
-            hitPoints = hitPoints - damage;
-            if (hitPoints <= float.Epsilon)
+            if (GetComponent<PhotonView>().IsMine)
             {
-                KillCharacter();
-                break;
+                hitPoints = hitPoints - damage;
+                if (hitPoints <= float.Epsilon)
+                {
+                    KillCharacter();
+                    break;
+                }
             }
+
             if (interval > float.Epsilon)
             {
                 yield return new WaitForSeconds(interval);
@@ -73,6 +77,7 @@ interval)
             {
                 break;
             }
+
 
         }
     }

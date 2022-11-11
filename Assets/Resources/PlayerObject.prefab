@@ -196,8 +196,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maxHitPoints: 10
-  startingHitPoints: 6
-  hitPoints: {fileID: 11400000, guid: 1223ddcd35bf5ec449c71cd88c59b97e, type: 2}
+  startingHitPoints: 10
+  hitPoints: 0
   healthBarPrefab: {fileID: -128873132869277503, guid: 823a883d15e77e54ca31f9104726b542,
     type: 3}
   inventoryPrefab: {fileID: -2781182197502719360, guid: 15bfe060b35752244a5330ca5544083b,
@@ -258,7 +258,7 @@ MonoBehaviour:
     SynchronizeEnabled: 1
     TeleportEnabled: 1
     TeleportIfDistanceGreaterThan: 3
-    InterpolateOption: 1
+    InterpolateOption: 2
     InterpolateMoveTowardsSpeed: 5
     InterpolateLerpSpeed: 1
     ExtrapolateOption: 0
