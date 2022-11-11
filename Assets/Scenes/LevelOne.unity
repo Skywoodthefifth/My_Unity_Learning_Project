@@ -9949,15 +9949,6 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 301842851493246150, guid: 52bb9aec973b7b54995143db1c4effd0,
         type: 3}
-      propertyPath: repeatInterval
-      value: 5
-      objectReference: {fileID: 0}
-    - target: {fileID: 0}
-      propertyPath: sceneViewId
-      value: 7
-      objectReference: {fileID: 0}
-    - target: {fileID: 301842851493246150, guid: 52bb9aec973b7b54995143db1c4effd0,
-        type: 3}
       propertyPath: prefabToSpawn
       value: 
       objectReference: {fileID: 5973976036664657457, guid: 7e45f64325395cd4fa1872433b59c70d,
@@ -13254,15 +13245,6 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 301842851493246150, guid: 52bb9aec973b7b54995143db1c4effd0,
         type: 3}
-      propertyPath: repeatInterval
-      value: 7
-      objectReference: {fileID: 0}
-    - target: {fileID: 0}
-      propertyPath: sceneViewId
-      value: 4
-      objectReference: {fileID: 0}
-    - target: {fileID: 301842851493246150, guid: 52bb9aec973b7b54995143db1c4effd0,
-        type: 3}
       propertyPath: prefabToSpawn
       value: 
       objectReference: {fileID: 2248024497717184545, guid: 58447c4835c267e49bfabf7b3ef7159d,
@@ -13351,7 +13333,6 @@ GameObject:
   - component: {fileID: 792413957}
   - component: {fileID: 792413956}
   - component: {fileID: 792413958}
-  - component: {fileID: 792413959}
   m_Layer: 0
   m_Name: CM vcam1
   m_TagString: VirtualCamera
@@ -13427,19 +13408,6 @@ MonoBehaviour:
   m_BoundingShape2D: {fileID: 173141369}
   m_ConfineScreenEdges: 1
   m_Damping: 0
---- !u!114 &792413959
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 792413955}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6f5347e6ea50aa44795a5519f5dab45a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  PixelsPerUnit: 16
 --- !u!1 &934627439
 GameObject:
   m_ObjectHideFlags: 0
@@ -15218,10 +15186,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 0}
-      propertyPath: sceneViewId
-      value: 5
-      objectReference: {fileID: 0}
     - target: {fileID: 301842851493246150, guid: 52bb9aec973b7b54995143db1c4effd0,
         type: 3}
       propertyPath: prefabToSpawn
@@ -15312,10 +15276,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 0}
-      propertyPath: sceneViewId
-      value: 3
-      objectReference: {fileID: 0}
     - target: {fileID: 301842851493246150, guid: 52bb9aec973b7b54995143db1c4effd0,
         type: 3}
       propertyPath: prefabToSpawn
@@ -15452,10 +15412,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 0}
-      propertyPath: sceneViewId
-      value: 2
-      objectReference: {fileID: 0}
     - target: {fileID: 301842851493246150, guid: 52bb9aec973b7b54995143db1c4effd0,
         type: 3}
       propertyPath: prefabToSpawn
