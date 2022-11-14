@@ -250,7 +250,7 @@ MonoBehaviour:
   ammoPrefab: {fileID: 341522639635309665, guid: c62fb59931e77fb45b30927c26eed2e3,
     type: 3}
   _attackPoint: {fileID: 842808257}
-  _attackRange: 0.4
+  _attackRange: 0.7
   _attackMask:
     serializedVersion: 2
     m_Bits: 1024

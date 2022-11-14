@@ -33,6 +33,9 @@ public class CreateAndJoinRooms : MonoBehaviourPunCallbacks
 
     public override void OnJoinedRoom()
     {
-        PhotonNetwork.LoadLevel("LevelOne");
+        if (PhotonNetwork.CurrentRoom.Players.Count <= 4)
+            PhotonNetwork.LoadLevel("LevelOne");
+        else
+            Application.Quit();
     }
 }
