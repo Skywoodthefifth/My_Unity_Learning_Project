@@ -39,8 +39,9 @@ public class Weapon : MonoBehaviour
     private float _attackRange;
     [SerializeField]
     private LayerMask _attackMask;
-    [SerializeField]
-    private int _attackDamage;
+    public int _baseAttackDamage;
+    [HideInInspector]
+    public int _attackDamage;
 
     private void OnDrawGizmos()
     {
@@ -87,6 +88,8 @@ public class Weapon : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+
+        _attackDamage = _baseAttackDamage;
 
         // if (ammoPool == null)
         // {
