@@ -17,6 +17,8 @@ public class Player : Character
 
     Inventory inventory;
 
+    Weapon weapon;
+
 
     void Start()
     {
@@ -29,6 +31,25 @@ public class Player : Character
         // {
         //     KillCharacter();
         // }
+        if (GetComponent<PhotonView>().IsMine)
+        {
+            UpdateInventory();
+        }
+
+    }
+
+    void UpdateInventory()
+    {
+        if (inventory.items != null && GetComponent<PhotonView>().IsMine)
+            foreach (Item item in inventory.items)
+            {
+                if (item != null)
+                    if (item.itemType == Item.ItemType.ATTACK)
+                    {
+                        weapon._attackDamage = weapon._baseAttackDamage + item.quantity;
+                        print("_attackDamage: " + weapon._attackDamage);
+                    }
+            }
     }
 
 
@@ -48,6 +69,12 @@ public class Player : Character
                 switch (hitObject.itemType)
                 {
                     case Item.ItemType.COIN:
+
+                        shouldDisappear = inventory.AddItem(hitObject);
+
+                        break;
+
+                    case Item.ItemType.ATTACK:
 
                         shouldDisappear = inventory.AddItem(hitObject);
 
@@ -141,6 +168,8 @@ interval)
             healthBar.character = this;
 
             hitPoints = startingHitPoints;
+
+            weapon = GetComponent<Weapon>();
         }
     }
 }

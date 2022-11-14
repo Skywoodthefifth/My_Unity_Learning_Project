@@ -254,6 +254,7 @@ MonoBehaviour:
   _attackMask:
     serializedVersion: 2
     m_Bits: 1024
+  _baseAttackDamage: 1
   _attackDamage: 1
 --- !u!114 &2403643940262750727
 MonoBehaviour:
