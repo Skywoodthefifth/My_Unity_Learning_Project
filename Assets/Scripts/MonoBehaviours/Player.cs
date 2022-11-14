@@ -1,10 +1,14 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
+using Photon.Pun;
 using UnityEngine;
 
 public class Player : Character
 {
-    public HitPoints hitPoints;
+    //public HitPoints hitPoints;
+    [HideInInspector]
+    public float hitPoints;
+
     public HealthBar healthBarPrefab;
 
     HealthBar healthBar;
@@ -19,16 +23,25 @@ public class Player : Character
         ResetCharacter();
     }
 
+    void Update()
+    {
+        // if (hitPoints.value <= float.Epsilon)
+        // {
+        //     KillCharacter();
+        // }
+    }
+
 
     void OnTriggerEnter2D(Collider2D collision)
     {
-        if (collision.gameObject.CompareTag("CanBePickedUp"))
+        if (collision.gameObject.CompareTag("CanBePickedUp") && GetComponent<PhotonView>().IsMine)
         {
+
             Item hitObject = collision.gameObject.GetComponent<Consumable>().item;
 
-            if (hitObject != null)
+            if (hitObject != null && collision.gameObject != null)
             {
-                //print("Hit: " + hitObject.objectName);
+                print("Hit: " + hitObject.objectName);
 
                 bool shouldDisappear = false;
 
@@ -50,36 +63,50 @@ public class Player : Character
                 }
 
                 if (shouldDisappear)
-                    Destroy(collision.gameObject);
+                    RPGGameManager.sharedInstance.DestroyObject(collision.gameObject);
             }
+
         }
     }
 
     public bool AdjustHitPoints(int amount)
     {
-        if (hitPoints.value < maxHitPoints)
+        if (GetComponent<PhotonView>().IsMine)
         {
-            hitPoints.value = hitPoints.value + amount;
-            print("Adjusted HitPoints by: " + amount + ". New value: " + hitPoints.value);
-            return true;
+
+            if (hitPoints < maxHitPoints)
+            {
+                hitPoints = hitPoints + amount;
+                print("Adjusted HitPoints by: " + amount + ". New value: " + hitPoints);
+                return true;
+            }
+            return false;
         }
+
         return false;
     }
 
     public override IEnumerator DamageCharacter(int damage, float
 interval)
     {
+
         while (true)
         {
             StartCoroutine(FlickerCharacter());
 
-            hitPoints.value = hitPoints.value - damage;
-
-            if (hitPoints.value <= float.Epsilon)
+            if (GetComponent<PhotonView>().IsMine)
             {
-                KillCharacter();
-                break;
+
+                hitPoints = hitPoints - damage;
+
+                if (hitPoints <= float.Epsilon)
+                {
+                    KillCharacter();
+                    break;
+                }
+
             }
+
             if (interval > float.Epsilon)
             {
                 yield return new WaitForSeconds(interval);
@@ -89,25 +116,31 @@ interval)
                 break;
             }
         }
+
     }
 
     public override void KillCharacter()
     {
-        base.KillCharacter();
+        if (GetComponent<PhotonView>().IsMine)
+        {
 
-        Destroy(healthBar.gameObject);
-        Destroy(inventory.gameObject);
+            Destroy(healthBar.gameObject);
+            Destroy(inventory.gameObject);
 
-        RPGGameManager.sharedInstance.SetupScene();
+            base.KillCharacter();
+        }
     }
 
     public override void ResetCharacter()
     {
-        inventory = Instantiate(inventoryPrefab);
+        if (GetComponent<PhotonView>().IsMine)
+        {
+            inventory = Instantiate(inventoryPrefab);
 
-        healthBar = Instantiate(healthBarPrefab);
-        healthBar.character = this;
+            healthBar = Instantiate(healthBarPrefab);
+            healthBar.character = this;
 
-        hitPoints.value = startingHitPoints;
+            hitPoints = startingHitPoints;
+        }
     }
 }

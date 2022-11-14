@@ -1,10 +1,11 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
+using Photon.Pun;
 using UnityEngine;
 
 public class Enemy : Character
 {
-    float hitPoints;
+    private float hitPoints;
     public int damageStrength;
     Coroutine damageCoroutine;
     // Start is called before the first frame update
@@ -16,7 +17,10 @@ public class Enemy : Character
     // Update is called once per frame
     void Update()
     {
-
+        // if (hitPoints <= float.Epsilon)
+        // {
+        //     KillCharacter();
+        // }
     }
 
     private void OnEnable()
@@ -55,21 +59,25 @@ interval)
         {
             StartCoroutine(FlickerCharacter());
 
-            hitPoints = hitPoints - damage;
-            if (hitPoints <= float.Epsilon)
+            if (GetComponent<PhotonView>().IsMine)
             {
-                KillCharacter();
-                break;
+                hitPoints = hitPoints - damage;
+                if (hitPoints <= float.Epsilon)
+                {
+                    KillCharacter();
+                    break;
+                }
             }
+
             if (interval > float.Epsilon)
             {
                 yield return new WaitForSeconds(interval);
             }
             else
             {
-
                 break;
             }
+
 
         }
     }
@@ -83,10 +91,14 @@ interval)
 
     public override void KillCharacter()
     {
-        GameObject drop = Instantiate(dropPrefab);
 
-        drop.transform.position = transform.position;
+        if (PhotonNetwork.IsMasterClient)
+        {
+            GameObject drop = RPGGameManager.sharedInstance.InstantiateObject(dropPrefab, transform.position, Quaternion.identity);
 
-        base.KillCharacter();
+            //drop.transform.position = transform.position;
+
+            base.KillCharacter();
+        }
     }
 }

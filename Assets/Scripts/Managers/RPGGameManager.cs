@@ -1,11 +1,13 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using Photon.Pun;
 
-public class RPGGameManager : MonoBehaviour
+public class RPGGameManager : MonoBehaviourPunCallbacks
 {
     public RPGCameraManager cameraManager;
     public SpawnPoint playerSpawnPoint;
+
     public static RPGGameManager sharedInstance = null;
     void Awake()
     {
@@ -24,6 +26,8 @@ public class RPGGameManager : MonoBehaviour
     void Start()
     {
         SetupScene();
+
+        //DontDestroyOnLoad(this.gameObject);
     }
 
     void Update()
@@ -32,21 +36,47 @@ public class RPGGameManager : MonoBehaviour
         {
             Application.Quit();
         }
+
+
     }
 
     public void SetupScene()
     {
-        SpawnPlayer();
-
+        if (RPGPlayerManager.LocalPlayerInstance == null)
+        {
+            SpawnPlayer();
+        }
     }
 
     public void SpawnPlayer()
     {
         if (playerSpawnPoint != null)
         {
-            GameObject player = playerSpawnPoint.SpawnObject();
-            cameraManager.virtualCamera.Follow = player.transform;
+            RPGPlayerManager.LocalPlayerInstance = playerSpawnPoint.SpawnPlayerObject();
+            cameraManager.virtualCamera.Follow = RPGPlayerManager.LocalPlayerInstance.transform;
         }
+    }
 
+    public void DestroyObject(GameObject gameObjectToDestroy)
+    {
+
+        if (gameObjectToDestroy.GetComponent<PhotonView>().IsMine == false)
+            GetComponent<PhotonView>().RPC("OthersDestroyObject", RpcTarget.Others, gameObjectToDestroy.GetComponent<PhotonView>().ViewID);
+        else
+            PhotonNetwork.Destroy(gameObjectToDestroy);
+    }
+
+    public GameObject InstantiateObject(GameObject gameObjectToInstantiate, Vector3 position, Quaternion rotation)
+    {
+        return PhotonNetwork.Instantiate(gameObjectToInstantiate.name, position, rotation);
+    }
+
+    [PunRPC]
+    void OthersDestroyObject(int viewID)
+    {
+        if (PhotonView.Find(viewID).IsMine)
+        {
+            PhotonNetwork.Destroy(PhotonView.Find(viewID).gameObject);
+        }
     }
 }

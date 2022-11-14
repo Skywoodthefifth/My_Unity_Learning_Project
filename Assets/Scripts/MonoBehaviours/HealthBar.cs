@@ -5,7 +5,7 @@ using UnityEngine.UI;
 
 public class HealthBar : MonoBehaviour
 {
-    public HitPoints hitPoints;
+    //public HitPoints hitPoints;
 
     [HideInInspector]
     public Player character;
@@ -25,7 +25,7 @@ public class HealthBar : MonoBehaviour
     {
         if (character != null)
         {
-            meterImage.fillAmount = hitPoints.value / maxHitPoints;
+            meterImage.fillAmount = character.hitPoints / maxHitPoints;
             hpText.text = "HP: " + (meterImage.fillAmount * 100);
         }
     }

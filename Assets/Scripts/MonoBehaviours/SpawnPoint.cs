@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using Photon.Pun;
 
 public class SpawnPoint : MonoBehaviour
 {
@@ -20,7 +21,20 @@ public class SpawnPoint : MonoBehaviour
     {
         if (prefabToSpawn != null)
         {
-            return Instantiate(prefabToSpawn, transform.position, Quaternion.identity);
+            if (PhotonNetwork.IsMasterClient)
+            {
+                return RPGGameManager.sharedInstance.InstantiateObject(prefabToSpawn, transform.position, Quaternion.identity);
+            }
+        }
+        return null;
+    }
+
+    public GameObject SpawnPlayerObject()
+    {
+        if (prefabToSpawn != null)
+        {
+            //return PhotonNetwork.Instantiate(prefabToSpawn.name, transform.position, Quaternion.identity);
+            return RPGGameManager.sharedInstance.InstantiateObject(prefabToSpawn, transform.position, Quaternion.identity);
         }
         return null;
     }

@@ -32,6 +32,7 @@ public class Arc : MonoBehaviour
             percentComplete += Time.deltaTime / duration;
             yield return null;
         }
-        gameObject.SetActive(false);
+        RPGGameManager.sharedInstance.DestroyObject(gameObject);
+        //gameObject.SetActive(false);
     }
 }
