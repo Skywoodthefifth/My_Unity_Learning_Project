@@ -59,9 +59,16 @@ public class Weapon : MonoBehaviour
 
         foreach (var obj in objs)
         {
-            if (obj.TryGetComponent<Enemy>(out Enemy enemy))
+            if (obj.TryGetComponent<Enemy>(out Enemy enemy) && obj is BoxCollider2D)
             {
-                GetComponent<PhotonView>().RPC("DamageCoroutine", RpcTarget.All, enemy.gameObject.GetComponent<PhotonView>().ViewID);
+                if (PhotonNetwork.IsMasterClient)
+                {
+                    DamageCoroutine(enemy.gameObject.GetComponent<PhotonView>().ViewID);
+                }
+                else
+                {
+                    GetComponent<PhotonView>().RPC("DamageCoroutine", RpcTarget.MasterClient, enemy.gameObject.GetComponent<PhotonView>().ViewID);
+                }
             }
         }
     }
