@@ -32,6 +32,51 @@ public class Weapon : MonoBehaviour
     //List<GameObject> ammoPool;
     //public int poolSize;
 
+    [Header("Attack Properties")]
+    [SerializeField]
+    private Transform _attackPoint;
+    [SerializeField]
+    private float _attackRange;
+    [SerializeField]
+    private LayerMask _attackMask;
+    [SerializeField]
+    private int _attackDamage;
+
+    private void OnDrawGizmos()
+    {
+        if (_attackPoint is null)
+        {
+            return;
+        }
+
+        Gizmos.color = Color.red;
+        Gizmos.DrawWireSphere(_attackPoint.position, _attackRange);
+    }
+
+    private void Attack()
+    {
+        Collider2D[] objs = Physics2D.OverlapCircleAll(_attackPoint.position, _attackRange, _attackMask);
+
+        foreach (var obj in objs)
+        {
+            if (obj.TryGetComponent<Enemy>(out Enemy enemy))
+            {
+                GetComponent<PhotonView>().RPC("DamageCoroutine", RpcTarget.All, enemy.gameObject.GetComponent<PhotonView>().ViewID);
+            }
+        }
+    }
+
+    [PunRPC]
+    void DamageCoroutine(int viewID)
+    {
+        if (gameObject != null && gameObject.activeSelf == true)
+        {
+            Enemy enemy = PhotonView.Find(viewID).gameObject.GetComponent<Enemy>();
+            StartCoroutine(enemy.DamageCharacter(_attackDamage, 0.0f));
+        }
+
+    }
+
 
     void Awake()
     {
@@ -80,7 +125,7 @@ public class Weapon : MonoBehaviour
             if (Input.GetMouseButtonDown(0))
             {
                 isFiring = true;
-                FireAmmo();
+                //FireAmmo();
             }
         }
 
