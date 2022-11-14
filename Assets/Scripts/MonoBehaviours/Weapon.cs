@@ -61,14 +61,7 @@ public class Weapon : MonoBehaviour
         {
             if (obj.TryGetComponent<Enemy>(out Enemy enemy) && obj is BoxCollider2D)
             {
-                if (PhotonNetwork.IsMasterClient)
-                {
-                    DamageCoroutine(enemy.gameObject.GetComponent<PhotonView>().ViewID);
-                }
-                else
-                {
-                    GetComponent<PhotonView>().RPC("DamageCoroutine", RpcTarget.MasterClient, enemy.gameObject.GetComponent<PhotonView>().ViewID);
-                }
+                GetComponent<PhotonView>().RPC("DamageCoroutine", RpcTarget.All, enemy.gameObject.GetComponent<PhotonView>().ViewID);
             }
         }
     }

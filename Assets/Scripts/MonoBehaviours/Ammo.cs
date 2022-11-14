@@ -24,7 +24,7 @@ public class Ammo : MonoBehaviour
         {
             //Enemy enemy = collision.gameObject.GetComponent<Enemy>();
 
-            GetComponent<PhotonView>().RPC("DamageCoroutine", RpcTarget.MasterClient, collision.gameObject.GetComponent<PhotonView>().ViewID);
+            GetComponent<PhotonView>().RPC("DamageCoroutine", RpcTarget.All, collision.gameObject.GetComponent<PhotonView>().ViewID);
 
             //RPGGameManager.sharedInstance.DestroyObject(gameObject);
             gameObject.SetActive(false);
