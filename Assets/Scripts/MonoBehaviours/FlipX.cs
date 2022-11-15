@@ -6,7 +6,7 @@ public class FlipX : MonoBehaviour
 {
     //SpriteRenderer SpriteRenderer;
 
-    bool isFacingRight;
+    //bool isFacingRight;
 
     Vector3 lastPosition;
 
@@ -15,7 +15,7 @@ public class FlipX : MonoBehaviour
     {
         //SpriteRenderer = GetComponent<SpriteRenderer>();
 
-        isFacingRight = true;
+        //isFacingRight = true;
 
         lastPosition = transform.position;
     }
@@ -39,7 +39,7 @@ public class FlipX : MonoBehaviour
         {
 
 
-            isFacingRight = true;
+            //isFacingRight = true;
 
             //SpriteRenderer.flipX = !isFacingRight;
             transform.localScale = new Vector3(1, 1, 1);
@@ -49,7 +49,7 @@ public class FlipX : MonoBehaviour
         else if (deltaPosition.x < 0.0f)
         {
 
-            isFacingRight = false;
+            //isFacingRight = false;
 
             //SpriteRenderer.flipX = !isFacingRight;
             transform.localScale = new Vector3(-1, 1, 1);
