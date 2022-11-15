@@ -172,7 +172,10 @@ MonoBehaviour:
   maxHitPoints: 2
   startingHitPoints: 2
   damageStrength: 1
-  dropPrefab: {fileID: 1950132718125007768, guid: 70cd169bed55fb34c9322242dbfbba5a,
+  experienceReward: 0
+  coinDropPrefab: {fileID: 1950132718125007768, guid: 70cd169bed55fb34c9322242dbfbba5a,
+    type: 3}
+  ExperienceDropPrefab: {fileID: 2358968912869923588, guid: 1d0970b15b9154f4ba9dbfec7bc74ab2,
     type: 3}
 --- !u!58 &144749018
 CircleCollider2D:

@@ -13,7 +13,8 @@ public class Item : ScriptableObject
     {
         COIN,
         HEALTH,
-        ATTACK
+        ATTACK,
+        EXPERIENCE
     }
     public ItemType itemType;
 }

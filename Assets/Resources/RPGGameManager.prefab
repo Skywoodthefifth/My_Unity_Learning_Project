@@ -44,8 +44,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 158fe07a6376e6848b360b740a829d04, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  cameraManager: {fileID: 0}
-  playerSpawnPoint: {fileID: 0}
+  cameraManager: {fileID: 2820870431047643085, guid: f967ba814d240a2468544d952679753c,
+    type: 3}
+  playerSpawnPoint: {fileID: 301842851493246150, guid: 52bb9aec973b7b54995143db1c4effd0,
+    type: 3}
 --- !u!114 &6467345391025333726
 MonoBehaviour:
   m_ObjectHideFlags: 0

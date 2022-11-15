@@ -19,6 +19,9 @@ public class Player : Character
 
     Weapon weapon;
 
+    int level = 1;
+    int experience = 0;
+  
 
     void Start()
     {
@@ -85,6 +88,11 @@ public class Player : Character
 
                         shouldDisappear = AdjustHitPoints(hitObject.quantity);
                         break;
+                    case Item.ItemType.EXPERIENCE:
+
+                        shouldDisappear = AddExperience(hitObject.quantity);
+                        break;
+
                     default:
                         break;
                 }
@@ -113,8 +121,7 @@ public class Player : Character
         return false;
     }
 
-    public override IEnumerator DamageCharacter(int damage, float
-interval)
+    public override IEnumerator DamageCharacter(int damage, float interval)
     {
 
         while (true)
@@ -163,8 +170,9 @@ interval)
         if (GetComponent<PhotonView>().IsMine)
         {
             inventory = Instantiate(inventoryPrefab);
+             
+            healthBar = Instantiate(healthBarPrefab); 
 
-            healthBar = Instantiate(healthBarPrefab);
             healthBar.character = this;
 
             hitPoints = startingHitPoints;
@@ -172,4 +180,47 @@ interval)
             weapon = GetComponent<Weapon>();
         }
     }
+
+    //TO ADD EXPERIENCE
+
+    int TO_LEVEL_UP
+    {
+        get
+        {
+            return level * 1000;
+        }
+    }
+    public bool AddExperience(int amount)
+    {
+        if (GetComponent<PhotonView>().IsMine)
+        {
+
+            if (experience <= TO_LEVEL_UP)
+            {
+                experience = experience + amount;
+                print("Adjusted experience by: " + amount + ". New value: " + experience);
+                return true;
+            }
+            return false;
+        }
+
+        return false;
+
+    }
+
+    public void CheckLevelUp()
+    {
+        if (GetComponent<PhotonView>().IsMine)
+        {
+
+            if (experience >= TO_LEVEL_UP)
+            {
+                experience -= TO_LEVEL_UP;
+                level += 1;
+            }
+        }
+       
+    }
+
+
 }

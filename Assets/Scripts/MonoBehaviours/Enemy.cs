@@ -7,6 +7,7 @@ public class Enemy : Character
 {
     private float hitPoints;
     public int damageStrength;
+    public int experienceReward;
     Coroutine damageCoroutine;
     // Start is called before the first frame update
     void Start()
@@ -52,8 +53,7 @@ public class Enemy : Character
         }
     }
 
-    public override IEnumerator DamageCharacter(int damage, float
-interval)
+    public override IEnumerator DamageCharacter(int damage, float interval)
     {
         while (true)
         {
@@ -62,6 +62,7 @@ interval)
             if (GetComponent<PhotonView>().IsMine)
             {
                 hitPoints = hitPoints - damage;
+
                 if (hitPoints <= float.Epsilon)
                 {
                     KillCharacter();
@@ -87,14 +88,16 @@ interval)
         hitPoints = startingHitPoints;
     }
 
-    public GameObject dropPrefab;
+    public GameObject coinDropPrefab;
+    public GameObject ExperienceDropPrefab;
 
     public override void KillCharacter()
     {
 
         if (PhotonNetwork.IsMasterClient)
         {
-            GameObject drop = RPGGameManager.sharedInstance.InstantiateObject(dropPrefab, transform.position, Quaternion.identity);
+            GameObject dropCoin = RPGGameManager.sharedInstance.InstantiateObject(coinDropPrefab, transform.position, Quaternion.identity);
+            GameObject dropExperience = RPGGameManager.sharedInstance.InstantiateObject(ExperienceDropPrefab, transform.position, Quaternion.identity);
 
             //drop.transform.position = transform.position;
 
