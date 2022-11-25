@@ -121,6 +121,37 @@ public class Player : Character
         return false;
     }
 
+    int TO_LEVEL_UP
+    {
+        get
+        {
+            return level * 1000;
+        }
+    }
+    public bool AddExperience(int amount)
+    {
+        if (GetComponent<PhotonView>().IsMine)
+        {
+
+            if (experience <= TO_LEVEL_UP)
+            {
+                experience = experience + amount;
+                print("Adjusted experience by: " + amount + ". New value: " + experience);
+                return true;
+            }
+            else
+            {
+                level += 1;
+                print("Level increased by 1: " + level);
+            }
+        }
+
+        return false;
+
+       
+
+    }
+
     public override IEnumerator DamageCharacter(int damage, float interval)
     {
 
@@ -183,30 +214,7 @@ public class Player : Character
 
     //TO ADD EXPERIENCE
 
-    int TO_LEVEL_UP
-    {
-        get
-        {
-            return level * 1000;
-        }
-    }
-    public bool AddExperience(int amount)
-    {
-        if (GetComponent<PhotonView>().IsMine)
-        {
-
-            if (experience <= TO_LEVEL_UP)
-            {
-                experience = experience + amount;
-                print("Adjusted experience by: " + amount + ". New value: " + experience);
-                return true;
-            }
-            return false;
-        }
-
-        return false;
-
-    }
+   
 
     public void CheckLevelUp()
     {

@@ -13,9 +13,9 @@ GameObject:
   - component: {fileID: 8411571760771266969}
   - component: {fileID: 1180010238569847166}
   - component: {fileID: -2216862414679800554}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: ExperienceObject
-  m_TagString: Untagged
+  m_TagString: CanBePickedUp
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
