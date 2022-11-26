@@ -9,6 +9,11 @@ public class RPGGameManager : MonoBehaviourPunCallbacks
     public SpawnPoint playerSpawnPoint;
 
     public static RPGGameManager sharedInstance = null;
+
+
+    PhotonView viewBuffer;
+
+
     void Awake()
     {
         if (sharedInstance != null && sharedInstance != this)
@@ -25,9 +30,21 @@ public class RPGGameManager : MonoBehaviourPunCallbacks
     // Start is called before the first frame update
     void Start()
     {
+        if (viewBuffer == null)
+            GetComponent<PhotonView>().RPC("BufferPhotonView", RpcTarget.AllBuffered);
+
         SetupScene();
 
+
+
         //DontDestroyOnLoad(this.gameObject);
+    }
+
+    [PunRPC]
+    void BufferPhotonView()
+    {
+        viewBuffer = GetComponent<PhotonView>();
+        print("Done: " + gameObject.name + ", viewID: " + viewBuffer.ViewID);
     }
 
     void Update()
@@ -61,7 +78,7 @@ public class RPGGameManager : MonoBehaviourPunCallbacks
     {
 
         if (gameObjectToDestroy.GetComponent<PhotonView>().IsMine == false)
-            GetComponent<PhotonView>().RPC("OthersDestroyObject", RpcTarget.Others, gameObjectToDestroy.GetComponent<PhotonView>().ViewID);
+            viewBuffer.RPC("OthersDestroyObject", RpcTarget.Others, gameObjectToDestroy.GetComponent<PhotonView>().ViewID);
         else
             PhotonNetwork.Destroy(gameObjectToDestroy);
     }
@@ -71,6 +88,7 @@ public class RPGGameManager : MonoBehaviourPunCallbacks
         return PhotonNetwork.Instantiate(gameObjectToInstantiate.name, position, rotation);
     }
 
+    //Giao thuc TCP
     [PunRPC]
     void OthersDestroyObject(int viewID)
     {

@@ -6,10 +6,19 @@ using UnityEngine;
 public class Ammo : MonoBehaviour
 {
     public int damageInflicted;
+    PhotonView viewBuffer;
     // Start is called before the first frame update
     void Start()
     {
+        if (viewBuffer == null)
+            GetComponent<PhotonView>().RPC("BufferPhotonView", RpcTarget.AllBuffered);
+    }
 
+    [PunRPC]
+    void BufferPhotonView()
+    {
+        viewBuffer = GetComponent<PhotonView>();
+        print("Done: " + gameObject.name + ", viewID: " + viewBuffer.ViewID);
     }
 
     // Update is called once per frame
@@ -24,7 +33,7 @@ public class Ammo : MonoBehaviour
         {
             //Enemy enemy = collision.gameObject.GetComponent<Enemy>();
 
-            GetComponent<PhotonView>().RPC("DamageCoroutine", RpcTarget.All, collision.gameObject.GetComponent<PhotonView>().ViewID);
+            viewBuffer.RPC("DamageCoroutine", RpcTarget.All, collision.gameObject.GetComponent<PhotonView>().ViewID);
 
             //RPGGameManager.sharedInstance.DestroyObject(gameObject);
             gameObject.SetActive(false);

@@ -7,7 +7,7 @@ using Photon.Pun;
 public class Weapon : MonoBehaviour
 {
 
-    PhotonView view;
+    PhotonView viewBuffer;
 
     bool isFiring;
 
@@ -62,7 +62,7 @@ public class Weapon : MonoBehaviour
         {
             if (obj.TryGetComponent<Enemy>(out Enemy enemy) && obj is BoxCollider2D)
             {
-                GetComponent<PhotonView>().RPC("DamageCoroutine", RpcTarget.All, enemy.gameObject.GetComponent<PhotonView>().ViewID);
+                viewBuffer.RPC("DamageCoroutine", RpcTarget.All, enemy.gameObject.GetComponent<PhotonView>().ViewID);
             }
         }
     }
@@ -88,6 +88,8 @@ public class Weapon : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        if (viewBuffer == null)
+            GetComponent<PhotonView>().RPC("BufferPhotonViewWeapon", RpcTarget.AllBuffered);
 
         _attackDamage = _baseAttackDamage;
 
@@ -96,7 +98,7 @@ public class Weapon : MonoBehaviour
         //     ammoPool = new List<GameObject>();
         // }
 
-        view = GetComponent<PhotonView>();
+
 
 
         // for (int i = 0; i < poolSize; i++)
@@ -120,10 +122,17 @@ public class Weapon : MonoBehaviour
         negativeSlope = GetSlope(upperLeft, lowerRight);
     }
 
+    [PunRPC]
+    void BufferPhotonViewWeapon()
+    {
+        viewBuffer = GetComponent<PhotonView>();
+        print("Done Weapon: " + gameObject.name + ", viewID: " + viewBuffer.ViewID);
+    }
+
     // Update is called once per frame
     void Update()
     {
-        if (view.IsMine)
+        if (viewBuffer.IsMine)
         {
             if (Input.GetMouseButtonDown(0))
             {
