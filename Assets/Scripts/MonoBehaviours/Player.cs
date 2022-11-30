@@ -135,6 +135,7 @@ public class Player : Character
 
             if (experience <= TO_LEVEL_UP)
             {
+
                 experience = experience + amount;
                 print("Adjusted experience by: " + amount + ". New value: " + experience);
                 return true;

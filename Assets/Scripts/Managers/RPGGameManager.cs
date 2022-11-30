@@ -32,7 +32,7 @@ public class RPGGameManager : MonoBehaviourPunCallbacks
 
     void Update()
     {
-        if (Input.GetKey("escape"))
+        if (Input.GetKeyDown(KeyCode.Escape))
         {
             Application.Quit();
         }
@@ -79,4 +79,11 @@ public class RPGGameManager : MonoBehaviourPunCallbacks
             PhotonNetwork.Destroy(PhotonView.Find(viewID).gameObject);
         }
     }
+
+    void OpenMenu()
+    {
+        
+    }
+
+
 }
