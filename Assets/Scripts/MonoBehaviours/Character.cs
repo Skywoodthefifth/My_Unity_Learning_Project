@@ -11,14 +11,20 @@ public abstract class Character : MonoBehaviour
 
     public float startingHitPoints;
 
+    public int startingExperience;
+
+    public int level;
+
+    [HideInInspector]
+    public int expLimit;
+
     public virtual void KillCharacter()
     {
         RPGGameManager.sharedInstance.DestroyObject(gameObject);
     }
 
     public abstract void ResetCharacter();
-    public abstract IEnumerator DamageCharacter(int damage, float
-interval);
+    public abstract IEnumerator DamageCharacter(int damage, float interval);
 
     public virtual IEnumerator FlickerCharacter()
     {

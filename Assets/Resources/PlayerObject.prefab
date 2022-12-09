@@ -228,8 +228,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   maxHitPoints: 10
   startingHitPoints: 10
+  startingExperience: 0
+  level: 0
+  expLimit: 0
   hitPoints: 0
+  experience: 0
   healthBarPrefab: {fileID: -128873132869277503, guid: 823a883d15e77e54ca31f9104726b542,
+    type: 3}
+  experienceBarPrefab: {fileID: 2220611172925801060, guid: bbbfa6669c0edd14c808cb32a1451dd6,
     type: 3}
   inventoryPrefab: {fileID: -2781182197502719360, guid: 15bfe060b35752244a5330ca5544083b,
     type: 3}

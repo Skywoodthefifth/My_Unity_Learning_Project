@@ -9,9 +9,16 @@ public class Player : Character
     [HideInInspector]
     public float hitPoints;
 
+    [HideInInspector]
+    public int experience;
+
     public HealthBar healthBarPrefab;
 
     HealthBar healthBar;
+
+    public ExperienceBar experienceBarPrefab;
+
+    ExperienceBar experienceBar;
 
     public Inventory inventoryPrefab;
 
@@ -19,9 +26,6 @@ public class Player : Character
 
     Weapon weapon;
 
-    int level = 1;
-    int experience = 0;
-  
 
     void Start()
     {
@@ -121,19 +125,13 @@ public class Player : Character
         return false;
     }
 
-    int TO_LEVEL_UP
-    {
-        get
-        {
-            return level * 1000;
-        }
-    }
+    
     public bool AddExperience(int amount)
     {
         if (GetComponent<PhotonView>().IsMine)
         {
 
-            if (experience <= TO_LEVEL_UP)
+            if (experience <= (level + 1000))
             {
 
                 experience = experience + amount;
@@ -209,27 +207,20 @@ public class Player : Character
 
             hitPoints = startingHitPoints;
 
+            experienceBar = Instantiate(experienceBarPrefab);
+
+            experience = startingExperience;
+
+            experienceBar.character = this;
+
             weapon = GetComponent<Weapon>();
         }
     }
 
-    //TO ADD EXPERIENCE
+   
 
    
 
-    public void CheckLevelUp()
-    {
-        if (GetComponent<PhotonView>().IsMine)
-        {
-
-            if (experience >= TO_LEVEL_UP)
-            {
-                experience -= TO_LEVEL_UP;
-                level += 1;
-            }
-        }
-       
-    }
 
 
 }
