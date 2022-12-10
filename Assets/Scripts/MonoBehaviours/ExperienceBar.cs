@@ -7,22 +7,25 @@ public class ExperienceBar : MonoBehaviour
 {
 
     [HideInInspector]
-    public Player character;
+    public Player player;
 
     public Image meterImage;
 
-    float expLimit;
+    float expToGain;
 
     void Start()
     {
-        expLimit = character.expLimit;
+        expToGain = player.expToGain;
     }
 
     void Update()
     {
-        if (character != null)
+        if (player != null)
         {
-            meterImage.fillAmount = character.experience / expLimit;
+           
+           
+            meterImage.fillAmount = player.experience / expToGain;
+            
         }
     }
 }

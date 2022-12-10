@@ -11,12 +11,11 @@ public abstract class Character : MonoBehaviour
 
     public float startingHitPoints;
 
-    public int startingExperience;
+    public float startingExperience;
 
     public int level;
 
-    [HideInInspector]
-    public int expLimit;
+    
 
     public virtual void KillCharacter()
     {

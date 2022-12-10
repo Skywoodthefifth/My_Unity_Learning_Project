@@ -171,6 +171,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   maxHitPoints: 2
   startingHitPoints: 2
+  startingExperience: 0
+  level: 0
   damageStrength: 1
   experienceReward: 0
   coinDropPrefab: {fileID: 1950132718125007768, guid: 70cd169bed55fb34c9322242dbfbba5a,

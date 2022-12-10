@@ -10,7 +10,7 @@ public class Player : Character
     public float hitPoints;
 
     [HideInInspector]
-    public int experience;
+    public float experience;
 
     public HealthBar healthBarPrefab;
 
@@ -19,6 +19,9 @@ public class Player : Character
     public ExperienceBar experienceBarPrefab;
 
     ExperienceBar experienceBar;
+
+    [HideInInspector]
+    public float expToGain;
 
     public Inventory inventoryPrefab;
 
@@ -125,17 +128,19 @@ public class Player : Character
         return false;
     }
 
+
+
     
     public bool AddExperience(int amount)
     {
         if (GetComponent<PhotonView>().IsMine)
         {
-
-            if (experience <= (level + 1000))
+            if (experience <= expToGain)
             {
 
                 experience = experience + amount;
                 print("Adjusted experience by: " + amount + ". New value: " + experience);
+                
                 return true;
             }
             else
@@ -211,7 +216,9 @@ public class Player : Character
 
             experience = startingExperience;
 
-            experienceBar.character = this;
+            expToGain = level * 1000;
+
+            experienceBar.player = this;
 
             weapon = GetComponent<Weapon>();
         }
