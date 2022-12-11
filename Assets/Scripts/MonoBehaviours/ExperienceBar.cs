@@ -13,18 +13,16 @@ public class ExperienceBar : MonoBehaviour
 
     float expToGain;
 
-    void Start()
-    {
-        expToGain = player.expToGain;
-    }
+    float experience;
 
     void Update()
     {
+        expToGain = player.expToGain;
+        experience = player.experience; 
         if (player != null)
         {
-           
-           
             meterImage.fillAmount = player.experience / expToGain;
+            print("exp to gain " + expToGain);  
             
         }
     }

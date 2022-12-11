@@ -146,6 +146,8 @@ public class Player : Character
             else
             {
                 level += 1;
+                experience = 0;
+                expToGain = level * 1000;
                 print("Level increased by 1: " + level);
             }
         }
