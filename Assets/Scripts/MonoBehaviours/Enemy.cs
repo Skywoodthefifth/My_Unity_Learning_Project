@@ -9,10 +9,20 @@ public class Enemy : Character
     public int damageStrength;
     public int experienceReward;
     Coroutine damageCoroutine;
+
+    PhotonView viewBuffer;
     // Start is called before the first frame update
     void Start()
     {
+        if (viewBuffer == null)
+            GetComponent<PhotonView>().RPC("BufferPhotonView", RpcTarget.AllBuffered);
+    }
 
+    [PunRPC]
+    void BufferPhotonView()
+    {
+        viewBuffer = GetComponent<PhotonView>();
+        print("Done: " + gameObject.name + ", viewID: " + viewBuffer.ViewID);
     }
 
     // Update is called once per frame
@@ -59,7 +69,7 @@ public class Enemy : Character
         {
             StartCoroutine(FlickerCharacter());
 
-            if (GetComponent<PhotonView>().IsMine)
+            if (viewBuffer.IsMine)
             {
                 hitPoints = hitPoints - damage;
 

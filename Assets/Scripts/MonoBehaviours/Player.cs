@@ -29,19 +29,37 @@ public class Player : Character
 
     Weapon weapon;
 
+<<<<<<< HEAD
+=======
+    int level = 1;
+    int experience = 0;
+
+
+    PhotonView viewBuffer;
+>>>>>>> Lvl-up-menu__optimize
 
     void Start()
     {
+        if (viewBuffer == null)
+            GetComponent<PhotonView>().RPC("BufferPhotonView", RpcTarget.AllBuffered);
+
         ResetCharacter();
+
     }
 
+    [PunRPC]
+    void BufferPhotonView()
+    {
+        viewBuffer = GetComponent<PhotonView>();
+        print("Done: " + gameObject.name + ", viewID: " + viewBuffer.ViewID);
+    }
     void Update()
     {
         // if (hitPoints.value <= float.Epsilon)
         // {
         //     KillCharacter();
         // }
-        if (GetComponent<PhotonView>().IsMine)
+        if (viewBuffer.IsMine)
         {
             UpdateInventory();
         }
@@ -50,14 +68,13 @@ public class Player : Character
 
     void UpdateInventory()
     {
-        if (inventory.items != null && GetComponent<PhotonView>().IsMine)
+        if (inventory.items != null)
             foreach (Item item in inventory.items)
             {
                 if (item != null)
                     if (item.itemType == Item.ItemType.ATTACK)
                     {
                         weapon._attackDamage = weapon._baseAttackDamage + item.quantity;
-                        print("_attackDamage: " + weapon._attackDamage);
                     }
             }
     }
@@ -65,7 +82,7 @@ public class Player : Character
 
     void OnTriggerEnter2D(Collider2D collision)
     {
-        if (collision.gameObject.CompareTag("CanBePickedUp") && GetComponent<PhotonView>().IsMine)
+        if (collision.gameObject.CompareTag("CanBePickedUp") && viewBuffer.IsMine)
         {
 
             Item hitObject = collision.gameObject.GetComponent<Consumable>().item;
@@ -87,6 +104,8 @@ public class Player : Character
                     case Item.ItemType.ATTACK:
 
                         shouldDisappear = inventory.AddItem(hitObject);
+
+                        print("_attackDamage before adjusted: " + weapon._attackDamage);
 
                         break;
 
@@ -113,7 +132,7 @@ public class Player : Character
 
     public bool AdjustHitPoints(int amount)
     {
-        if (GetComponent<PhotonView>().IsMine)
+        if (viewBuffer.IsMine)
         {
 
             if (hitPoints < maxHitPoints)
@@ -133,7 +152,7 @@ public class Player : Character
     
     public bool AddExperience(int amount)
     {
-        if (GetComponent<PhotonView>().IsMine)
+        if (viewBuffer.IsMine)
         {
             if (experience <= expToGain)
             {
@@ -154,7 +173,7 @@ public class Player : Character
 
         return false;
 
-       
+
 
     }
 
@@ -165,7 +184,7 @@ public class Player : Character
         {
             StartCoroutine(FlickerCharacter());
 
-            if (GetComponent<PhotonView>().IsMine)
+            if (viewBuffer.IsMine)
             {
 
                 hitPoints = hitPoints - damage;
@@ -192,7 +211,7 @@ public class Player : Character
 
     public override void KillCharacter()
     {
-        if (GetComponent<PhotonView>().IsMine)
+        if (viewBuffer.IsMine)
         {
 
             Destroy(healthBar.gameObject);
@@ -204,11 +223,11 @@ public class Player : Character
 
     public override void ResetCharacter()
     {
-        if (GetComponent<PhotonView>().IsMine)
+        if (viewBuffer.IsMine)
         {
             inventory = Instantiate(inventoryPrefab);
-             
-            healthBar = Instantiate(healthBarPrefab); 
+
+            healthBar = Instantiate(healthBarPrefab);
 
             healthBar.character = this;
 
@@ -228,8 +247,24 @@ public class Player : Character
 
    
 
-   
 
+
+<<<<<<< HEAD
+=======
+    public void CheckLevelUp()
+    {
+        if (viewBuffer.IsMine)
+        {
+
+            if (experience >= TO_LEVEL_UP)
+            {
+                experience -= TO_LEVEL_UP;
+                level += 1;
+            }
+        }
+
+    }
+>>>>>>> Lvl-up-menu__optimize
 
 
 }
