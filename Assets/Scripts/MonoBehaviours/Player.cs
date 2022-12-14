@@ -29,14 +29,7 @@ public class Player : Character
 
     Weapon weapon;
 
-<<<<<<< HEAD
-=======
-    int level = 1;
-    int experience = 0;
-
-
     PhotonView viewBuffer;
->>>>>>> Lvl-up-menu__optimize
 
     void Start()
     {
@@ -149,7 +142,7 @@ public class Player : Character
 
 
 
-    
+
     public bool AddExperience(int amount)
     {
         if (viewBuffer.IsMine)
@@ -159,7 +152,7 @@ public class Player : Character
 
                 experience = experience + amount;
                 print("Adjusted experience by: " + amount + ". New value: " + experience);
-                
+
                 return true;
             }
             else
@@ -245,26 +238,10 @@ public class Player : Character
         }
     }
 
-   
 
 
 
-<<<<<<< HEAD
-=======
-    public void CheckLevelUp()
-    {
-        if (viewBuffer.IsMine)
-        {
 
-            if (experience >= TO_LEVEL_UP)
-            {
-                experience -= TO_LEVEL_UP;
-                level += 1;
-            }
-        }
-
-    }
->>>>>>> Lvl-up-menu__optimize
 
 
 }
