@@ -19,14 +19,18 @@ public class HealthBar : MonoBehaviour
     void Start()
     {
         maxHitPoints = character.maxHitPoints;
+        
     }
 
     void Update()
     {
+      
         if (character != null)
         {
+            maxHitPoints = character.maxHitPoints;
             meterImage.fillAmount = character.hitPoints / maxHitPoints;
-            hpText.text = "HP: " + (meterImage.fillAmount * 100);
+            hpText.text = "HP: " + character.hitPoints;
+          
         }
     }
 }

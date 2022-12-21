@@ -31,13 +31,11 @@ public class Inventory : MonoBehaviour
                 GameObject newSlot = Instantiate(slotPrefab);
                 newSlot.name = "ItemSlot_" + i;
 
-                newSlot.transform.SetParent(gameObject.transform.
-               GetChild(0).transform);
+                newSlot.transform.SetParent(gameObject.transform.GetChild(0).transform);
 
                 slots[i] = newSlot;
 
-                itemImages[i] = newSlot.transform.GetChild(1).
-               GetComponent<Image>();
+                itemImages[i] = newSlot.transform.GetChild(1).GetComponent<Image>();
             }
         }
 

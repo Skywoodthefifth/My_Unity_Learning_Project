@@ -22,8 +22,7 @@ public class ExperienceBar : MonoBehaviour
         experience = player.experience; 
         if (player != null)
         {
-            meterImage.fillAmount = player.experience / expToGain;
-            print("exp to gain " + expToGain);
+            meterImage.fillAmount = experience / expToGain;
             levelText.text = "Level: " + player.level;
         }
     }

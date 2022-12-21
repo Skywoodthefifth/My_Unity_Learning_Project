@@ -14,7 +14,8 @@ public class Item : ScriptableObject
         COIN,
         HEALTH,
         ATTACK,
-        EXPERIENCE
+        EXPERIENCE,
+        ARMOR
     }
     public ItemType itemType;
 }

@@ -240,6 +240,8 @@ MonoBehaviour:
   expToGain: 0
   inventoryPrefab: {fileID: -2781182197502719360, guid: 15bfe060b35752244a5330ca5544083b,
     type: 3}
+  menuLevelUpPrefab: {fileID: 2217144559425100439, guid: 987de9ea03c3a6e4d94ad7e0ecb6e39e,
+    type: 3}
 --- !u!114 &-5614315432620943923
 MonoBehaviour:
   m_ObjectHideFlags: 0

@@ -31,6 +31,10 @@ public class Player : Character
 
     PhotonView viewBuffer;
 
+    [SerializeField] MenuLevelUp menuLevelUpPrefab;
+
+    MenuLevelUp menuLevelUp;
+
     void Start()
     {
         if (viewBuffer == null)
@@ -52,8 +56,11 @@ public class Player : Character
         // {
         //     KillCharacter();
         // }
+       
+
         if (viewBuffer.IsMine)
         {
+            UpdateExperience();
             UpdateInventory();
         }
 
@@ -65,10 +72,16 @@ public class Player : Character
             foreach (Item item in inventory.items)
             {
                 if (item != null)
+                {
                     if (item.itemType == Item.ItemType.ATTACK)
                     {
                         weapon._attackDamage = weapon._baseAttackDamage + item.quantity;
                     }
+                    if(item.itemType == Item.ItemType.ARMOR)
+                    {
+                        maxHitPoints = startingHitPoints + item.quantity;
+                    }
+                }
             }
     }
 
@@ -93,14 +106,15 @@ public class Player : Character
                         shouldDisappear = inventory.AddItem(hitObject);
 
                         break;
-
+                    
                     case Item.ItemType.ATTACK:
+                    case Item.ItemType.ARMOR:
 
                         shouldDisappear = inventory.AddItem(hitObject);
-
-                        print("_attackDamage before adjusted: " + weapon._attackDamage);
+                        print("Added item into inventory " + hitObject.name);
 
                         break;
+
 
                     case Item.ItemType.HEALTH:
 
@@ -147,27 +161,28 @@ public class Player : Character
     {
         if (viewBuffer.IsMine)
         {
-            if (experience <= expToGain)
-            {
+            experience = experience + amount;
+            print("Adjusted experience by: " + amount + ". New value: " + experience);
 
-                experience = experience + amount;
-                print("Adjusted experience by: " + amount + ". New value: " + experience);
+            return true;
+        }
 
-                return true;
-            }
-            else
+        return false;
+    }
+
+    private void UpdateExperience()
+    {
+        if (viewBuffer.IsMine)
+        {
+            if (experience >= expToGain)
             {
                 level += 1;
                 experience = 0;
                 expToGain = level * 1000;
                 print("Level increased by 1: " + level);
+                menuLevelUp.gameObject.SetActive(true);                
             }
         }
-
-        return false;
-
-
-
     }
 
     public override IEnumerator DamageCharacter(int damage, float interval)
@@ -233,6 +248,12 @@ public class Player : Character
             expToGain = level * 1000;
 
             experienceBar.player = this;
+
+            menuLevelUp = Instantiate(menuLevelUpPrefab);
+
+            menuLevelUp.gameObject.SetActive(false);
+
+            menuLevelUp.player = this;
 
             weapon = GetComponent<Weapon>();
         }
