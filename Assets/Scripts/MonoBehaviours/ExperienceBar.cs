@@ -5,6 +5,7 @@ using UnityEngine.UI;
 
 public class ExperienceBar : MonoBehaviour
 {
+    [SerializeField] Text levelText;
 
     [HideInInspector]
     public Player player;
@@ -22,8 +23,8 @@ public class ExperienceBar : MonoBehaviour
         if (player != null)
         {
             meterImage.fillAmount = player.experience / expToGain;
-            print("exp to gain " + expToGain);  
-            
+            print("exp to gain " + expToGain);
+            levelText.text = "Level: " + player.level;
         }
     }
 }
