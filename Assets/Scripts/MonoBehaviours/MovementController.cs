@@ -14,6 +14,14 @@ public class MovementController : MonoBehaviour
 
     PhotonView view;
 
+    private bool canDash = true;
+    private bool isDashing;
+    private float dashingPower = 24f;
+    private float dashingTime = 0.2f;
+    private float dashingCoolDown = 1.0f;
+
+    [SerializeField] private TrailRenderer trailRenderer;
+
 
     // Start is called before the first frame update
     void Start()
@@ -42,17 +50,30 @@ public class MovementController : MonoBehaviour
 
     private void MoveCharacter()
     {
+        if(isDashing)
+        {
+            return;
+        }
+
         movement.x = Input.GetAxisRaw("Horizontal");
         movement.y = Input.GetAxisRaw("Vertical");
 
         movement.Normalize();
         rb2D.velocity = movement * movementSpeed;
+
+       
+
     }
 
 
 
     private void UpdateState()
     {
+
+        if (isDashing)
+        {
+            return;
+        }
 
         if (Mathf.Approximately(movement.x, 0.0f) && Mathf.Approximately(movement.y, 0.0f))
         {
@@ -64,5 +85,28 @@ public class MovementController : MonoBehaviour
         }
         animator.SetFloat("xDir", movement.x);
         animator.SetFloat("yDir", movement.y);
+
+
+        if (Input.GetKeyDown(KeyCode.LeftShift) && canDash)
+        {
+            StartCoroutine(Dash());
+        }
+
+
+
+    }
+
+    private IEnumerator Dash()
+    {
+        canDash = false;
+        isDashing = true;
+        rb2D.velocity = new Vector2(transform.localScale.x * dashingPower, 0f);
+        trailRenderer.emitting = true;
+        yield return new WaitForSeconds(dashingTime);
+        trailRenderer.emitting = false;
+        isDashing = false;
+        yield return new WaitForSeconds(dashingCoolDown);
+        canDash = true;
+
     }
 }
