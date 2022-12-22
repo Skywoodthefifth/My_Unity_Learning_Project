@@ -43,11 +43,10 @@ public class Ammo : MonoBehaviour
     [PunRPC]
     void DamageCoroutine(int viewID)
     {
-        if (gameObject != null && gameObject.activeSelf == true)
+        if (gameObject != null && gameObject.activeSelf == true && viewBuffer.IsMine == true)
         {
             Enemy enemy = PhotonView.Find(viewID).gameObject.GetComponent<Enemy>();
             StartCoroutine(enemy.DamageCharacter(damageInflicted, 0.0f));
         }
-
     }
 }

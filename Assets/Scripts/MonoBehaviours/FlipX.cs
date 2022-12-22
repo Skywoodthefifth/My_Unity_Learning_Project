@@ -10,6 +10,8 @@ public class FlipX : MonoBehaviour
 
     Vector3 lastPosition;
 
+    Vector3 startScale;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -18,6 +20,8 @@ public class FlipX : MonoBehaviour
         //isFacingRight = true;
 
         lastPosition = transform.position;
+
+        startScale = transform.localScale;
     }
 
     // Update is called once per frame
@@ -42,7 +46,7 @@ public class FlipX : MonoBehaviour
             //isFacingRight = true;
 
             //SpriteRenderer.flipX = !isFacingRight;
-            transform.localScale = new Vector3(1, 1, 1);
+            transform.localScale = new Vector3(startScale.x, startScale.y, startScale.z);
 
 
         }
@@ -52,7 +56,7 @@ public class FlipX : MonoBehaviour
             //isFacingRight = false;
 
             //SpriteRenderer.flipX = !isFacingRight;
-            transform.localScale = new Vector3(-1, 1, 1);
+            transform.localScale = new Vector3(-startScale.x, startScale.y, startScale.z);
         }
     }
 }

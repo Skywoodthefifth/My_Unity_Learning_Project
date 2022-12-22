@@ -70,7 +70,7 @@ public class Weapon : MonoBehaviour
     [PunRPC]
     void DamageCoroutine(int viewID)
     {
-        if (gameObject != null && gameObject.activeSelf == true)
+        if (gameObject != null && gameObject.activeSelf == true && viewBuffer.IsMine == true)
         {
             Enemy enemy = PhotonView.Find(viewID).gameObject.GetComponent<Enemy>();
             StartCoroutine(enemy.DamageCharacter(_attackDamage, 0.0f));

@@ -15434,11 +15434,12 @@ PrefabInstance:
         type: 3}
       propertyPath: prefabToSpawn
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 2248024497717184545, guid: fbc3d84ea03704840b929903f464bce1,
+        type: 3}
     - target: {fileID: 301842851493246150, guid: 52bb9aec973b7b54995143db1c4effd0,
         type: 3}
       propertyPath: repeatInterval
-      value: 0
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 1430360336200723614, guid: 52bb9aec973b7b54995143db1c4effd0,
         type: 3}
@@ -15454,7 +15455,7 @@ PrefabInstance:
     - target: {fileID: 1430360336200723614, guid: 52bb9aec973b7b54995143db1c4effd0,
         type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1430360336200723615, guid: 52bb9aec973b7b54995143db1c4effd0,
         type: 3}

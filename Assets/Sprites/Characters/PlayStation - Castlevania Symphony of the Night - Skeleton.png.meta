@@ -1,0 +1,4844 @@
+fileFormatVersion: 2
+guid: fd3773ccd420d074887a47d90c7f9efd
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -9150640933825970413
+    second: PlayStation - Castlevania Symphony of the Night - Skeleton_0
+  - first:
+      213: -4552842890753891493
+    second: PlayStation - Castlevania Symphony of the Night - Skeleton_1
+  - first:
+      213: 6588324933066355316
+    second: PlayStation - Castlevania Symphony of the Night - Skeleton_2
+  - first:
+      213: -5200745149032836752
+    second: PlayStation - Castlevania Symphony of the Night - Skeleton_3
+  - first:
+      213: -6655005469112781163
+    second: PlayStation - Castlevania Symphony of the Night - Skeleton_4
+  - first:
+      213: 127934674260393337
+    second: PlayStation - Castlevania Symphony of the Night - Skeleton_5
+  - first:
+      213: 6804557488550312054
+    second: PlayStation - Castlevania Symphony of the Night - Skeleton_6
+  - first:
+      213: -6020047892268475769
+    second: PlayStation - Castlevania Symphony of the Night - Skeleton_7
+  - first:
+      213: -1433491548739930743
+    second: PlayStation - Castlevania Symphony of the Night - Skeleton_8
+  - first:
+      213: -3327430763477859307
+    second: PlayStation - Castlevania Symphony of the Night - Skeleton_9
+  - first:
+      213: -6918206660794631088
+    second: PlayStation - Castlevania Symphony of the Night - Skeleton_10
+  - first:
+      213: -5877807543430208008
+    second: PlayStation - Castlevania Symphony of the Night - Skeleton_11
+  - first:
+      213: -1162764626324817927
+    second: PlayStation - Castlevania Symphony of the Night - Skeleton_12
+  - first:
+      213: -1649863929793737715
+    second: PlayStation - Castlevania Symphony of the Night - Skeleton_13
+  - first:
+      213: 7106264823756619087
+    second: PlayStation - Castlevania Symphony of the Night - Skeleton_14
+  - first:
+      213: -38912393425978451
+    second: PlayStation - Castlevania Symphony of the Night - Skeleton_15
+  - first:
+      213: -2865024202896818314
+    second: PlayStation - Castlevania Symphony of the Night - Skeleton_16
+  - first:
+      213: 8761482720385433670
+    second: PlayStation - Castlevania Symphony of the Night - Skeleton_17
+  - first:
+      213: 6461804365172058701
+    second: PlayStation - Castlevania Symphony of the Night - Skeleton_18
+  - first:
+      213: -6807603607161079195
+    second: PlayStation - Castlevania Symphony of the Night - Skeleton_19
+  - first:
+      213: -187875014257753944
+    second: PlayStation - Castlevania Symphony of the Night - Skeleton_20
+  - first:
+      213: -1148063348417013989
+    second: PlayStation - Castlevania Symphony of the Night - Skeleton_21
+  - first:
+      213: -6054750718624048468
+    second: PlayStation - Castlevania Symphony of the Night - Skeleton_22
+  - first:
+      213: -7511532651318960719
+    second: PlayStation - Castlevania Symphony of the Night - Skeleton_23
+  - first:
+      213: 6809424651499420335
+    second: PlayStation - Castlevania Symphony of the Night - Skeleton_24
+  - first:
+      213: 5133572415691764674
+    second: PlayStation - Castlevania Symphony of the Night - Skeleton_25
+  - first:
+      213: 9081400017808539202
+    second: PlayStation - Castlevania Symphony of the Night - Skeleton_26
+  - first:
+      213: -4153743371323172954
+    second: PlayStation - Castlevania Symphony of the Night - Skeleton_27
+  - first:
+      213: 2345402292025667907
+    second: PlayStation - Castlevania Symphony of the Night - Skeleton_28
+  - first:
+      213: 196249716932904403
+    second: PlayStation - Castlevania Symphony of the Night - Skeleton_29
+  - first:
+      213: -4771281876595486811
+    second: PlayStation - Castlevania Symphony of the Night - Skeleton_30
+  - first:
+      213: -881721532490105114
+    second: PlayStation - Castlevania Symphony of the Night - Skeleton_31
+  - first:
+      213: -6750717289815866316
+    second: PlayStation - Castlevania Symphony of the Night - Skeleton_32
+  - first:
+      213: -5288362143778760969
+    second: PlayStation - Castlevania Symphony of the Night - Skeleton_33
+  - first:
+      213: -1385407178039696904
+    second: PlayStation - Castlevania Symphony of the Night - Skeleton_34
+  - first:
+      213: -8132372544500638521
+    second: PlayStation - Castlevania Symphony of the Night - Skeleton_35
+  - first:
+      213: -3192469397861094238
+    second: PlayStation - Castlevania Symphony of the Night - Skeleton_36
+  - first:
+      213: 3943780206549947372
+    second: PlayStation - Castlevania Symphony of the Night - Skeleton_37
+  - first:
+      213: -77926369389704828
+    second: PlayStation - Castlevania Symphony of the Night - Skeleton_38
+  - first:
+      213: -7203733014840492347
+    second: PlayStation - Castlevania Symphony of the Night - Skeleton_39
+  - first:
+      213: 8482276412120427715
+    second: PlayStation - Castlevania Symphony of the Night - Skeleton_40
+  - first:
+      213: 2681953024105302084
+    second: PlayStation - Castlevania Symphony of the Night - Skeleton_41
+  - first:
+      213: 5822627290298978875
+    second: PlayStation - Castlevania Symphony of the Night - Skeleton_42
+  - first:
+      213: 3884655503906409125
+    second: PlayStation - Castlevania Symphony of the Night - Skeleton_43
+  - first:
+      213: 2063310533405417745
+    second: PlayStation - Castlevania Symphony of the Night - Skeleton_44
+  - first:
+      213: -624532600220854396
+    second: PlayStation - Castlevania Symphony of the Night - Skeleton_45
+  - first:
+      213: 8192984322082870309
+    second: PlayStation - Castlevania Symphony of the Night - Skeleton_46
+  - first:
+      213: 5213569999502629885
+    second: PlayStation - Castlevania Symphony of the Night - Skeleton_47
+  - first:
+      213: 8567549031684264609
+    second: PlayStation - Castlevania Symphony of the Night - Skeleton_48
+  - first:
+      213: -2436885560166559838
+    second: PlayStation - Castlevania Symphony of the Night - Skeleton_49
+  - first:
+      213: -8153043555336367324
+    second: PlayStation - Castlevania Symphony of the Night - Skeleton_50
+  - first:
+      213: 9142051119513824846
+    second: PlayStation - Castlevania Symphony of the Night - Skeleton_51
+  - first:
+      213: -1429790659797763420
+    second: PlayStation - Castlevania Symphony of the Night - Skeleton_52
+  - first:
+      213: 5802765537693834902
+    second: PlayStation - Castlevania Symphony of the Night - Skeleton_53
+  - first:
+      213: 859040339513992262
+    second: PlayStation - Castlevania Symphony of the Night - Skeleton_54
+  - first:
+      213: -4994534549209044333
+    second: PlayStation - Castlevania Symphony of the Night - Skeleton_55
+  - first:
+      213: -6589543884233006274
+    second: PlayStation - Castlevania Symphony of the Night - Skeleton_56
+  - first:
+      213: 4200199444495287644
+    second: PlayStation - Castlevania Symphony of the Night - Skeleton_57
+  - first:
+      213: -4882582460535199754
+    second: PlayStation - Castlevania Symphony of the Night - Skeleton_58
+  - first:
+      213: -2224791565756763292
+    second: PlayStation - Castlevania Symphony of the Night - Skeleton_59
+  - first:
+      213: -2425570088283664303
+    second: PlayStation - Castlevania Symphony of the Night - Skeleton_60
+  - first:
+      213: 666517109566602133
+    second: PlayStation - Castlevania Symphony of the Night - Skeleton_61
+  - first:
+      213: 955839971434467775
+    second: PlayStation - Castlevania Symphony of the Night - Skeleton_62
+  - first:
+      213: -2960705984615551695
+    second: PlayStation - Castlevania Symphony of the Night - Skeleton_63
+  - first:
+      213: -8759649828989910631
+    second: PlayStation - Castlevania Symphony of the Night - Skeleton_64
+  - first:
+      213: -9100509350574485563
+    second: PlayStation - Castlevania Symphony of the Night - Skeleton_65
+  - first:
+      213: -3760037546994230950
+    second: PlayStation - Castlevania Symphony of the Night - Skeleton_66
+  - first:
+      213: -4517700246058038746
+    second: PlayStation - Castlevania Symphony of the Night - Skeleton_67
+  - first:
+      213: -3753154877729456676
+    second: PlayStation - Castlevania Symphony of the Night - Skeleton_68
+  - first:
+      213: -7349405417430544134
+    second: PlayStation - Castlevania Symphony of the Night - Skeleton_69
+  - first:
+      213: -4644517221748851749
+    second: PlayStation - Castlevania Symphony of the Night - Skeleton_70
+  - first:
+      213: -5655980989160211497
+    second: PlayStation - Castlevania Symphony of the Night - Skeleton_71
+  - first:
+      213: -1916048403317087474
+    second: PlayStation - Castlevania Symphony of the Night - Skeleton_72
+  - first:
+      213: 921482940805833941
+    second: PlayStation - Castlevania Symphony of the Night - Skeleton_73
+  - first:
+      213: -4100164624625445717
+    second: PlayStation - Castlevania Symphony of the Night - Skeleton_74
+  - first:
+      213: 6026310392114205534
+    second: PlayStation - Castlevania Symphony of the Night - Skeleton_75
+  - first:
+      213: 6498307131635488653
+    second: PlayStation - Castlevania Symphony of the Night - Skeleton_76
+  - first:
+      213: -2060945023809222367
+    second: PlayStation - Castlevania Symphony of the Night - Skeleton_77
+  - first:
+      213: -8858882276451918681
+    second: PlayStation - Castlevania Symphony of the Night - Skeleton_78
+  - first:
+      213: -744983366053591737
+    second: PlayStation - Castlevania Symphony of the Night - Skeleton_79
+  - first:
+      213: -4690931848774352560
+    second: PlayStation - Castlevania Symphony of the Night - Skeleton_80
+  - first:
+      213: 8916528947701134354
+    second: PlayStation - Castlevania Symphony of the Night - Skeleton_81
+  - first:
+      213: -879774576546248304
+    second: PlayStation - Castlevania Symphony of the Night - Skeleton_82
+  - first:
+      213: 4366650722619668223
+    second: PlayStation - Castlevania Symphony of the Night - Skeleton_83
+  - first:
+      213: -4491226522989744707
+    second: PlayStation - Castlevania Symphony of the Night - Skeleton_84
+  - first:
+      213: -5357043743794929724
+    second: PlayStation - Castlevania Symphony of the Night - Skeleton_85
+  - first:
+      213: 23758132314086735
+    second: PlayStation - Castlevania Symphony of the Night - Skeleton_86
+  - first:
+      213: -601150513470287364
+    second: PlayStation - Castlevania Symphony of the Night - Skeleton_87
+  - first:
+      213: 86336926016457244
+    second: PlayStation - Castlevania Symphony of the Night - Skeleton_88
+  - first:
+      213: 3717931960636392827
+    second: PlayStation - Castlevania Symphony of the Night - Skeleton_89
+  - first:
+      213: 7800536316305215467
+    second: PlayStation - Castlevania Symphony of the Night - Skeleton_90
+  - first:
+      213: -1160403139590605823
+    second: PlayStation - Castlevania Symphony of the Night - Skeleton_91
+  - first:
+      213: 5497186656026534929
+    second: PlayStation - Castlevania Symphony of the Night - Skeleton_92
+  - first:
+      213: -8864653139571106168
+    second: PlayStation - Castlevania Symphony of the Night - Skeleton_93
+  - first:
+      213: -6119457194812804423
+    second: PlayStation - Castlevania Symphony of the Night - Skeleton_94
+  - first:
+      213: -7502219415530373405
+    second: PlayStation - Castlevania Symphony of the Night - Skeleton_95
+  - first:
+      213: 4318363610760197845
+    second: PlayStation - Castlevania Symphony of the Night - Skeleton_96
+  - first:
+      213: 1900869051826011117
+    second: PlayStation - Castlevania Symphony of the Night - Skeleton_97
+  - first:
+      213: 5437030044221261662
+    second: PlayStation - Castlevania Symphony of the Night - Skeleton_98
+  - first:
+      213: -1601141604220966489
+    second: PlayStation - Castlevania Symphony of the Night - Skeleton_99
+  - first:
+      213: 575655643771940839
+    second: PlayStation - Castlevania Symphony of the Night - Skeleton_100
+  - first:
+      213: 5475924516351100604
+    second: PlayStation - Castlevania Symphony of the Night - Skeleton_101
+  - first:
+      213: 7793139336248460618
+    second: PlayStation - Castlevania Symphony of the Night - Skeleton_102
+  - first:
+      213: -8858636751977711878
+    second: PlayStation - Castlevania Symphony of the Night - Skeleton_103
+  - first:
+      213: -295787661900843684
+    second: PlayStation - Castlevania Symphony of the Night - Skeleton_104
+  - first:
+      213: -422549921280416307
+    second: PlayStation - Castlevania Symphony of the Night - Skeleton_105
+  - first:
+      213: 6454200265782235275
+    second: PlayStation - Castlevania Symphony of the Night - Skeleton_106
+  - first:
+      213: -7133464587959446731
+    second: PlayStation - Castlevania Symphony of the Night - Skeleton_107
+  - first:
+      213: 8930137257878491439
+    second: PlayStation - Castlevania Symphony of the Night - Skeleton_108
+  - first:
+      213: -47312747304180680
+    second: PlayStation - Castlevania Symphony of the Night - Skeleton_109
+  - first:
+      213: -1357645016605877936
+    second: PlayStation - Castlevania Symphony of the Night - Skeleton_110
+  - first:
+      213: -3641842429301759102
+    second: PlayStation - Castlevania Symphony of the Night - Skeleton_111
+  - first:
+      213: -4936915576839240533
+    second: PlayStation - Castlevania Symphony of the Night - Skeleton_112
+  - first:
+      213: -6986318220407302027
+    second: PlayStation - Castlevania Symphony of the Night - Skeleton_113
+  - first:
+      213: 2657872088743495144
+    second: PlayStation - Castlevania Symphony of the Night - Skeleton_114
+  - first:
+      213: 4628533651233858801
+    second: PlayStation - Castlevania Symphony of the Night - Skeleton_115
+  - first:
+      213: -5345501266603060711
+    second: PlayStation - Castlevania Symphony of the Night - Skeleton_116
+  - first:
+      213: 7833254326593424831
+    second: PlayStation - Castlevania Symphony of the Night - Skeleton_117
+  - first:
+      213: -2272669972161031913
+    second: PlayStation - Castlevania Symphony of the Night - Skeleton_118
+  - first:
+      213: -6829645321446628491
+    second: PlayStation - Castlevania Symphony of the Night - Skeleton_119
+  - first:
+      213: -1543758119654214369
+    second: PlayStation - Castlevania Symphony of the Night - Skeleton_120
+  - first:
+      213: -2541835571689016487
+    second: PlayStation - Castlevania Symphony of the Night - Skeleton_121
+  - first:
+      213: 6573162925444339455
+    second: PlayStation - Castlevania Symphony of the Night - Skeleton_122
+  - first:
+      213: -7430384679501519761
+    second: PlayStation - Castlevania Symphony of the Night - Skeleton_123
+  - first:
+      213: 731492958674883459
+    second: PlayStation - Castlevania Symphony of the Night - Skeleton_124
+  - first:
+      213: -8100477816935181780
+    second: PlayStation - Castlevania Symphony of the Night - Skeleton_125
+  - first:
+      213: -3499264529803418564
+    second: PlayStation - Castlevania Symphony of the Night - Skeleton_126
+  - first:
+      213: -3146760696382305318
+    second: PlayStation - Castlevania Symphony of the Night - Skeleton_127
+  - first:
+      213: -3864091134340623177
+    second: PlayStation - Castlevania Symphony of the Night - Skeleton_128
+  - first:
+      213: 8151689236996533808
+    second: PlayStation - Castlevania Symphony of the Night - Skeleton_129
+  - first:
+      213: 7885450739660748609
+    second: PlayStation - Castlevania Symphony of the Night - Skeleton_130
+  - first:
+      213: -6585582991632815583
+    second: PlayStation - Castlevania Symphony of the Night - Skeleton_131
+  - first:
+      213: 6328370833337100215
+    second: PlayStation - Castlevania Symphony of the Night - Skeleton_132
+  - first:
+      213: 4829129341670434031
+    second: PlayStation - Castlevania Symphony of the Night - Skeleton_133
+  - first:
+      213: 3321378990464135837
+    second: PlayStation - Castlevania Symphony of the Night - Skeleton_134
+  - first:
+      213: -227427489750232890
+    second: PlayStation - Castlevania Symphony of the Night - Skeleton_135
+  - first:
+      213: 6961821519185185635
+    second: PlayStation - Castlevania Symphony of the Night - Skeleton_136
+  - first:
+      213: -4750779185758350852
+    second: PlayStation - Castlevania Symphony of the Night - Skeleton_137
+  - first:
+      213: -344208317478391962
+    second: PlayStation - Castlevania Symphony of the Night - Skeleton_138
+  - first:
+      213: -4160231623661228486
+    second: PlayStation - Castlevania Symphony of the Night - Skeleton_139
+  - first:
+      213: -8110355874988857615
+    second: PlayStation - Castlevania Symphony of the Night - Skeleton_140
+  - first:
+      213: 385182223154210136
+    second: PlayStation - Castlevania Symphony of the Night - Skeleton_141
+  - first:
+      213: 455449220912355073
+    second: PlayStation - Castlevania Symphony of the Night - Skeleton_142
+  - first:
+      213: -4279119657831406925
+    second: PlayStation - Castlevania Symphony of the Night - Skeleton_143
+  - first:
+      213: 720396127406811652
+    second: PlayStation - Castlevania Symphony of the Night - Skeleton_144
+  - first:
+      213: -8064436962756200404
+    second: PlayStation - Castlevania Symphony of the Night - Skeleton_145
+  - first:
+      213: 2318648135577524327
+    second: PlayStation - Castlevania Symphony of the Night - Skeleton_146
+  - first:
+      213: -6162349230538141734
+    second: PlayStation - Castlevania Symphony of the Night - Skeleton_147
+  - first:
+      213: 2301729058558989882
+    second: PlayStation - Castlevania Symphony of the Night - Skeleton_148
+  - first:
+      213: -219761152115915021
+    second: PlayStation - Castlevania Symphony of the Night - Skeleton_149
+  - first:
+      213: -4641475508208254841
+    second: PlayStation - Castlevania Symphony of the Night - Skeleton_150
+  - first:
+      213: -1818053776259367107
+    second: PlayStation - Castlevania Symphony of the Night - Skeleton_151
+  - first:
+      213: 6286295569036367524
+    second: PlayStation - Castlevania Symphony of the Night - Skeleton_152
+  - first:
+      213: -8035850439030972196
+    second: PlayStation - Castlevania Symphony of the Night - Skeleton_153
+  - first:
+      213: 2559122124158973670
+    second: PlayStation - Castlevania Symphony of the Night - Skeleton_154
+  - first:
+      213: -2713389501359568301
+    second: PlayStation - Castlevania Symphony of the Night - Skeleton_155
+  - first:
+      213: 1678971702355033043
+    second: PlayStation - Castlevania Symphony of the Night - Skeleton_156
+  - first:
+      213: 8248027662213036414
+    second: PlayStation - Castlevania Symphony of the Night - Skeleton_157
+  - first:
+      213: -8477092676807127878
+    second: PlayStation - Castlevania Symphony of the Night - Skeleton_158
+  - first:
+      213: -6118749703792861131
+    second: PlayStation - Castlevania Symphony of the Night - Skeleton_159
+  - first:
+      213: -7955479251261376269
+    second: PlayStation - Castlevania Symphony of the Night - Skeleton_160
+  - first:
+      213: -6445692974238404488
+    second: PlayStation - Castlevania Symphony of the Night - Skeleton_161
+  - first:
+      213: -503672728316562933
+    second: PlayStation - Castlevania Symphony of the Night - Skeleton_162
+  - first:
+      213: 2925566462497427119
+    second: PlayStation - Castlevania Symphony of the Night - Skeleton_163
+  - first:
+      213: -2686951956269529573
+    second: PlayStation - Castlevania Symphony of the Night - Skeleton_164
+  - first:
+      213: -8804794467231774857
+    second: PlayStation - Castlevania Symphony of the Night - Skeleton_165
+  - first:
+      213: 8989166955588178076
+    second: PlayStation - Castlevania Symphony of the Night - Skeleton_166
+  - first:
+      213: 3873764846519051637
+    second: PlayStation - Castlevania Symphony of the Night - Skeleton_167
+  - first:
+      213: -6634232232119217633
+    second: PlayStation - Castlevania Symphony of the Night - Skeleton_168
+  - first:
+      213: -6106678479447412841
+    second: PlayStation - Castlevania Symphony of the Night - Skeleton_169
+  - first:
+      213: -8163539538730671456
+    second: PlayStation - Castlevania Symphony of the Night - Skeleton_170
+  - first:
+      213: 5523260839706760774
+    second: PlayStation - Castlevania Symphony of the Night - Skeleton_171
+  - first:
+      213: 7919197064082041058
+    second: PlayStation - Castlevania Symphony of the Night - Skeleton_172
+  - first:
+      213: 6829334581593453618
+    second: PlayStation - Castlevania Symphony of the Night - Skeleton_173
+  - first:
+      213: -3618514118326731864
+    second: PlayStation - Castlevania Symphony of the Night - Skeleton_174
+  - first:
+      213: -888291815258699853
+    second: PlayStation - Castlevania Symphony of the Night - Skeleton_175
+  - first:
+      213: -7809991823523571535
+    second: PlayStation - Castlevania Symphony of the Night - Skeleton_176
+  - first:
+      213: 1330574338113960640
+    second: PlayStation - Castlevania Symphony of the Night - Skeleton_177
+  - first:
+      213: -1778542058406256654
+    second: PlayStation - Castlevania Symphony of the Night - Skeleton_178
+  - first:
+      213: -2768627041804150487
+    second: PlayStation - Castlevania Symphony of the Night - Skeleton_179
+  - first:
+      213: 540144147081794754
+    second: PlayStation - Castlevania Symphony of the Night - Skeleton_180
+  - first:
+      213: 3882768535847919783
+    second: PlayStation - Castlevania Symphony of the Night - Skeleton_181
+  - first:
+      213: 1514717375676137541
+    second: PlayStation - Castlevania Symphony of the Night - Skeleton_182
+  - first:
+      213: 8174234868531363092
+    second: PlayStation - Castlevania Symphony of the Night - Skeleton_183
+  - first:
+      213: 4230333218594644449
+    second: PlayStation - Castlevania Symphony of the Night - Skeleton_184
+  - first:
+      213: -3178657571469654050
+    second: PlayStation - Castlevania Symphony of the Night - Skeleton_185
+  - first:
+      213: 2660575944956714781
+    second: PlayStation - Castlevania Symphony of the Night - Skeleton_186
+  - first:
+      213: 8233350016794260833
+    second: PlayStation - Castlevania Symphony of the Night - Skeleton_187
+  - first:
+      213: 7639483632060930903
+    second: PlayStation - Castlevania Symphony of the Night - Skeleton_188
+  - first:
+      213: -9062851973756248785
+    second: PlayStation - Castlevania Symphony of the Night - Skeleton_189
+  - first:
+      213: -1825843104684627140
+    second: PlayStation - Castlevania Symphony of the Night - Skeleton_190
+  - first:
+      213: 4202350324181834581
+    second: PlayStation - Castlevania Symphony of the Night - Skeleton_191
+  - first:
+      213: -4959250138161825471
+    second: PlayStation - Castlevania Symphony of the Night - Skeleton_192
+  - first:
+      213: 8630603396605192196
+    second: PlayStation - Castlevania Symphony of the Night - Skeleton_193
+  - first:
+      213: 1767084088000268833
+    second: PlayStation - Castlevania Symphony of the Night - Skeleton_194
+  - first:
+      213: -5796836823071947089
+    second: PlayStation - Castlevania Symphony of the Night - Skeleton_195
+  - first:
+      213: -4860002700665329100
+    second: PlayStation - Castlevania Symphony of the Night - Skeleton_196
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 32
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: PlayStation - Castlevania Symphony of the Night - Skeleton_0
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 760
+        width: 27
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31f77288d84620180800000000000000
+      internalID: -9150640933825970413
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStation - Castlevania Symphony of the Night - Skeleton_1
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 760
+        width: 29
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b53a37a438d01d0c0800000000000000
+      internalID: -4552842890753891493
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStation - Castlevania Symphony of the Night - Skeleton_2
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 760
+        width: 24
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 472f444ce9e6e6b50800000000000000
+      internalID: 6588324933066355316
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStation - Castlevania Symphony of the Night - Skeleton_3
+      rect:
+        serializedVersion: 2
+        x: 125
+        y: 772
+        width: 8
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 071df8877dd33d7b0800000000000000
+      internalID: -5200745149032836752
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStation - Castlevania Symphony of the Night - Skeleton_4
+      rect:
+        serializedVersion: 2
+        x: 141
+        y: 772
+        width: 8
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 596304b19cba4a3a0800000000000000
+      internalID: -6655005469112781163
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStation - Castlevania Symphony of the Night - Skeleton_5
+      rect:
+        serializedVersion: 2
+        x: 218
+        y: 760
+        width: 27
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 97dfebd88e386c100800000000000000
+      internalID: 127934674260393337
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStation - Castlevania Symphony of the Night - Skeleton_6
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 760
+        width: 29
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 678f3c6dbf4ae6e50800000000000000
+      internalID: 6804557488550312054
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStation - Castlevania Symphony of the Night - Skeleton_7
+      rect:
+        serializedVersion: 2
+        x: 282
+        y: 760
+        width: 24
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78a9f7a665e747ca0800000000000000
+      internalID: -6020047892268475769
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStation - Castlevania Symphony of the Night - Skeleton_8
+      rect:
+        serializedVersion: 2
+        x: 329
+        y: 785
+        width: 14
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 985f4d808073b1ce0800000000000000
+      internalID: -1433491548739930743
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStation - Castlevania Symphony of the Night - Skeleton_9
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 775
+        width: 14
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5140230a95792d1d0800000000000000
+      internalID: -3327430763477859307
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStation - Castlevania Symphony of the Night - Skeleton_10
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 775
+        width: 14
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05c389c32b79dff90800000000000000
+      internalID: -6918206660794631088
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStation - Castlevania Symphony of the Night - Skeleton_11
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 712
+        width: 24
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f52bb36e25dd6ea0800000000000000
+      internalID: -5877807543430208008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStation - Castlevania Symphony of the Night - Skeleton_12
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 712
+        width: 24
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f7f482abb70ddfe0800000000000000
+      internalID: -1162764626324817927
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStation - Castlevania Symphony of the Night - Skeleton_13
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 712
+        width: 22
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d0c0ae84f718a19e0800000000000000
+      internalID: -1649863929793737715
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStation - Castlevania Symphony of the Night - Skeleton_14
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 712
+        width: 24
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f4dfdd3e4368e9260800000000000000
+      internalID: 7106264823756619087
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStation - Castlevania Symphony of the Night - Skeleton_15
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 712
+        width: 22
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dabfb746261c57ff0800000000000000
+      internalID: -38912393425978451
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStation - Castlevania Symphony of the Night - Skeleton_16
+      rect:
+        serializedVersion: 2
+        x: 167
+        y: 712
+        width: 22
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67f3071caa36d38d0800000000000000
+      internalID: -2865024202896818314
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStation - Castlevania Symphony of the Night - Skeleton_17
+      rect:
+        serializedVersion: 2
+        x: 220
+        y: 712
+        width: 24
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6400c462d1a079970800000000000000
+      internalID: 8761482720385433670
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStation - Castlevania Symphony of the Night - Skeleton_18
+      rect:
+        serializedVersion: 2
+        x: 258
+        y: 712
+        width: 22
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4a262285d0fca950800000000000000
+      internalID: 6461804365172058701
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStation - Castlevania Symphony of the Night - Skeleton_19
+      rect:
+        serializedVersion: 2
+        x: 289
+        y: 712
+        width: 24
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56afe7766988681a0800000000000000
+      internalID: -6807603607161079195
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStation - Castlevania Symphony of the Night - Skeleton_20
+      rect:
+        serializedVersion: 2
+        x: 322
+        y: 712
+        width: 22
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a0cef08ba8846df0800000000000000
+      internalID: -187875014257753944
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStation - Castlevania Symphony of the Night - Skeleton_21
+      rect:
+        serializedVersion: 2
+        x: 353
+        y: 712
+        width: 22
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1755f1a7724110f0800000000000000
+      internalID: -1148063348417013989
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStation - Castlevania Symphony of the Night - Skeleton_22
+      rect:
+        serializedVersion: 2
+        x: 403
+        y: 711
+        width: 17
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: caa5fd40d4439fba0800000000000000
+      internalID: -6054750718624048468
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStation - Castlevania Symphony of the Night - Skeleton_23
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 658
+        width: 16
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1bd9267f9dca1c790800000000000000
+      internalID: -7511532651318960719
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStation - Castlevania Symphony of the Night - Skeleton_24
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 659
+        width: 19
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: faa396584afef7e50800000000000000
+      internalID: 6809424651499420335
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStation - Castlevania Symphony of the Night - Skeleton_25
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 657
+        width: 26
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c33d0ac9ec1e3740800000000000000
+      internalID: 5133572415691764674
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStation - Castlevania Symphony of the Night - Skeleton_26
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 657
+        width: 29
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24e34bc633d970e70800000000000000
+      internalID: 9081400017808539202
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStation - Castlevania Symphony of the Night - Skeleton_27
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 657
+        width: 24
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a716284960fa56c0800000000000000
+      internalID: -4153743371323172954
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStation - Castlevania Symphony of the Night - Skeleton_28
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 657
+        width: 27
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 341b39745fa8c8020800000000000000
+      internalID: 2345402292025667907
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStation - Castlevania Symphony of the Night - Skeleton_29
+      rect:
+        serializedVersion: 2
+        x: 222
+        y: 658
+        width: 16
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d58e09e31839b200800000000000000
+      internalID: 196249716932904403
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStation - Castlevania Symphony of the Night - Skeleton_30
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 659
+        width: 19
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5af444e996009cdb0800000000000000
+      internalID: -4771281876595486811
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStation - Castlevania Symphony of the Night - Skeleton_31
+      rect:
+        serializedVersion: 2
+        x: 282
+        y: 657
+        width: 26
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ee3d1110fe73c3f0800000000000000
+      internalID: -881721532490105114
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStation - Castlevania Symphony of the Night - Skeleton_32
+      rect:
+        serializedVersion: 2
+        x: 313
+        y: 657
+        width: 29
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 43400794462a052a0800000000000000
+      internalID: -6750717289815866316
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStation - Castlevania Symphony of the Night - Skeleton_33
+      rect:
+        serializedVersion: 2
+        x: 348
+        y: 657
+        width: 24
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f6917036a6fb96b0800000000000000
+      internalID: -5288362143778760969
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStation - Castlevania Symphony of the Night - Skeleton_34
+      rect:
+        serializedVersion: 2
+        x: 378
+        y: 657
+        width: 27
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f1eaa3038b06cce0800000000000000
+      internalID: -1385407178039696904
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStation - Castlevania Symphony of the Night - Skeleton_35
+      rect:
+        serializedVersion: 2
+        x: 446
+        y: 635
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7cc56e70242042f80800000000000000
+      internalID: -8132372544500638521
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStation - Castlevania Symphony of the Night - Skeleton_36
+      rect:
+        serializedVersion: 2
+        x: 507
+        y: 638
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ac2f204ff112b3d0800000000000000
+      internalID: -3192469397861094238
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStation - Castlevania Symphony of the Night - Skeleton_37
+      rect:
+        serializedVersion: 2
+        x: 568
+        y: 641
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce350abe33f1bb630800000000000000
+      internalID: 3943780206549947372
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStation - Castlevania Symphony of the Night - Skeleton_38
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 617
+        width: 11
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48904e141662beef0800000000000000
+      internalID: -77926369389704828
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStation - Castlevania Symphony of the Night - Skeleton_39
+      rect:
+        serializedVersion: 2
+        x: 323
+        y: 630
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5cebda17df2370c90800000000000000
+      internalID: -7203733014840492347
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStation - Castlevania Symphony of the Night - Skeleton_40
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 632
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ccec1fa47917b570800000000000000
+      internalID: 8482276412120427715
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStation - Castlevania Symphony of the Night - Skeleton_41
+      rect:
+        serializedVersion: 2
+        x: 561
+        y: 622
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 448c41ad016383520800000000000000
+      internalID: 2681953024105302084
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStation - Castlevania Symphony of the Night - Skeleton_42
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 605
+        width: 12
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3214c1cba02ec050800000000000000
+      internalID: 5822627290298978875
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStation - Castlevania Symphony of the Night - Skeleton_43
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 608
+        width: 24
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5aa8b19599119e530800000000000000
+      internalID: 3884655503906409125
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStation - Castlevania Symphony of the Night - Skeleton_44
+      rect:
+        serializedVersion: 2
+        x: 191
+        y: 606
+        width: 26
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 111a3fc8ff952ac10800000000000000
+      internalID: 2063310533405417745
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStation - Castlevania Symphony of the Night - Skeleton_45
+      rect:
+        serializedVersion: 2
+        x: 318
+        y: 618
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4875f25b8e63557f0800000000000000
+      internalID: -624532600220854396
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStation - Castlevania Symphony of the Night - Skeleton_46
+      rect:
+        serializedVersion: 2
+        x: 378
+        y: 593
+        width: 14
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 524181825d353b170800000000000000
+      internalID: 8192984322082870309
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStation - Castlevania Symphony of the Night - Skeleton_47
+      rect:
+        serializedVersion: 2
+        x: 439
+        y: 605
+        width: 12
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dfbdcf7ba425a5840800000000000000
+      internalID: 5213569999502629885
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStation - Castlevania Symphony of the Night - Skeleton_48
+      rect:
+        serializedVersion: 2
+        x: 501
+        y: 621
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a25845937c06e670800000000000000
+      internalID: 8567549031684264609
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStation - Castlevania Symphony of the Night - Skeleton_49
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 603
+        width: 23
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2af4ef38e717e2ed0800000000000000
+      internalID: -2436885560166559838
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStation - Castlevania Symphony of the Night - Skeleton_50
+      rect:
+        serializedVersion: 2
+        x: 316
+        y: 596
+        width: 16
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42353e545129ade80800000000000000
+      internalID: -8153043555336367324
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStation - Castlevania Symphony of the Night - Skeleton_51
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 590
+        width: 7
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4e65197e071fde70800000000000000
+      internalID: 9142051119513824846
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStation - Castlevania Symphony of the Night - Skeleton_52
+      rect:
+        serializedVersion: 2
+        x: 493
+        y: 604
+        width: 14
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4aa359368fc582ce0800000000000000
+      internalID: -1429790659797763420
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStation - Castlevania Symphony of the Night - Skeleton_53
+      rect:
+        serializedVersion: 2
+        x: 553
+        y: 603
+        width: 14
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69e9e1d1380978050800000000000000
+      internalID: 5802765537693834902
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStation - Castlevania Symphony of the Night - Skeleton_54
+      rect:
+        serializedVersion: 2
+        x: 501
+        y: 594
+        width: 20
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 644667c23acebeb00800000000000000
+      internalID: 859040339513992262
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStation - Castlevania Symphony of the Night - Skeleton_55
+      rect:
+        serializedVersion: 2
+        x: 562
+        y: 592
+        width: 20
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 39aaaf72a49dfaab0800000000000000
+      internalID: -4994534549209044333
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStation - Castlevania Symphony of the Night - Skeleton_56
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 556
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e33a17c00cc3d84a0800000000000000
+      internalID: -6589543884233006274
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStation - Castlevania Symphony of the Night - Skeleton_57
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 555
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c554fe2242b1a4a30800000000000000
+      internalID: 4200199444495287644
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStation - Castlevania Symphony of the Night - Skeleton_58
+      rect:
+        serializedVersion: 2
+        x: 158
+        y: 554
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f72f350f159d3cb0800000000000000
+      internalID: -4882582460535199754
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStation - Castlevania Symphony of the Night - Skeleton_59
+      rect:
+        serializedVersion: 2
+        x: 219
+        y: 553
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 46378cfbbd3ff11e0800000000000000
+      internalID: -2224791565756763292
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStation - Castlevania Symphony of the Night - Skeleton_60
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 552
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1501a0e1bd4a65ed0800000000000000
+      internalID: -2425570088283664303
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStation - Castlevania Symphony of the Night - Skeleton_61
+      rect:
+        serializedVersion: 2
+        x: 341
+        y: 551
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59bff60a7c1ff3900800000000000000
+      internalID: 666517109566602133
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStation - Castlevania Symphony of the Night - Skeleton_62
+      rect:
+        serializedVersion: 2
+        x: 402
+        y: 550
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb19877c363d34d00800000000000000
+      internalID: 955839971434467775
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStation - Castlevania Symphony of the Night - Skeleton_63
+      rect:
+        serializedVersion: 2
+        x: 463
+        y: 549
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 13ded9ee79579e6d0800000000000000
+      internalID: -2960705984615551695
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStation - Castlevania Symphony of the Night - Skeleton_64
+      rect:
+        serializedVersion: 2
+        x: 29
+        y: 536
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 991ce3224e87f6680800000000000000
+      internalID: -8759649828989910631
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStation - Castlevania Symphony of the Night - Skeleton_65
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 533
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5cf03e356fe74b180800000000000000
+      internalID: -9100509350574485563
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStation - Castlevania Symphony of the Night - Skeleton_66
+      rect:
+        serializedVersion: 2
+        x: 524
+        y: 543
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a591745c5c9a1dbc0800000000000000
+      internalID: -3760037546994230950
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStation - Castlevania Symphony of the Night - Skeleton_67
+      rect:
+        serializedVersion: 2
+        x: 587
+        y: 537
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62a0400ef87ed41c0800000000000000
+      internalID: -4517700246058038746
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStation - Castlevania Symphony of the Night - Skeleton_68
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 530
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cdd39e5168d1aebc0800000000000000
+      internalID: -3753154877729456676
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStation - Castlevania Symphony of the Night - Skeleton_69
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 528
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af098bf26baa10a90800000000000000
+      internalID: -7349405417430544134
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStation - Castlevania Symphony of the Night - Skeleton_70
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 525
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bdbb97cc13c5b8fb0800000000000000
+      internalID: -4644517221748851749
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStation - Castlevania Symphony of the Night - Skeleton_71
+      rect:
+        serializedVersion: 2
+        x: 331
+        y: 522
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7db3ebcc14be181b0800000000000000
+      internalID: -5655980989160211497
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStation - Castlevania Symphony of the Night - Skeleton_72
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 503
+        width: 26
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e03a4dbf024d865e0800000000000000
+      internalID: -1916048403317087474
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStation - Castlevania Symphony of the Night - Skeleton_73
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 505
+        width: 10
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d460593ad3c9cc00800000000000000
+      internalID: 921482940805833941
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStation - Castlevania Symphony of the Night - Skeleton_74
+      rect:
+        serializedVersion: 2
+        x: 392
+        y: 519
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba4d39c5ff94917c0800000000000000
+      internalID: -4100164624625445717
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStation - Castlevania Symphony of the Night - Skeleton_75
+      rect:
+        serializedVersion: 2
+        x: 452
+        y: 516
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5356347f51c1a350800000000000000
+      internalID: 6026310392114205534
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStation - Castlevania Symphony of the Night - Skeleton_76
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 506
+        width: 15
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d87558e18ef9e2a50800000000000000
+      internalID: 6498307131635488653
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStation - Castlevania Symphony of the Night - Skeleton_77
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 492
+        width: 7
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1290e329b6d0663e0800000000000000
+      internalID: -2060945023809222367
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStation - Castlevania Symphony of the Night - Skeleton_78
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 501
+        width: 10
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ac5415818dee0580800000000000000
+      internalID: -8858882276451918681
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStation - Castlevania Symphony of the Night - Skeleton_79
+      rect:
+        serializedVersion: 2
+        x: 513
+        y: 508
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7450dce539949a5f0800000000000000
+      internalID: -744983366053591737
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStation - Castlevania Symphony of the Night - Skeleton_80
+      rect:
+        serializedVersion: 2
+        x: 575
+        y: 500
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0510d30565676eeb0800000000000000
+      internalID: -4690931848774352560
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStation - Castlevania Symphony of the Night - Skeleton_81
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 485
+        width: 7
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 214b63d06dfddbb70800000000000000
+      internalID: 8916528947701134354
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStation - Castlevania Symphony of the Night - Skeleton_82
+      rect:
+        serializedVersion: 2
+        x: 223
+        y: 480
+        width: 7
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0998a821fa96ac3f0800000000000000
+      internalID: -879774576546248304
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStation - Castlevania Symphony of the Night - Skeleton_83
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 496
+        width: 14
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff6b2fb52b5799c30800000000000000
+      internalID: 4366650722619668223
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStation - Castlevania Symphony of the Night - Skeleton_84
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 491
+        width: 14
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dbd226bd545fba1c0800000000000000
+      internalID: -4491226522989744707
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStation - Castlevania Symphony of the Night - Skeleton_85
+      rect:
+        serializedVersion: 2
+        x: 279
+        y: 479
+        width: 20
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4cfdfdc0915f7a5b0800000000000000
+      internalID: -5357043743794929724
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStation - Castlevania Symphony of the Night - Skeleton_86
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 482
+        width: 15
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f4d9b1d35e7645000800000000000000
+      internalID: 23758132314086735
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStation - Castlevania Symphony of the Night - Skeleton_87
+      rect:
+        serializedVersion: 2
+        x: 444
+        y: 477
+        width: 15
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf15f040bc848a7f0800000000000000
+      internalID: -601150513470287364
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStation - Castlevania Symphony of the Night - Skeleton_88
+      rect:
+        serializedVersion: 2
+        x: 464
+        y: 470
+        width: 12
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c1ac53e0afab23100800000000000000
+      internalID: 86336926016457244
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStation - Castlevania Symphony of the Night - Skeleton_89
+      rect:
+        serializedVersion: 2
+        x: 506
+        y: 471
+        width: 10
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b75cdc47b6fb89330800000000000000
+      internalID: 3717931960636392827
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStation - Castlevania Symphony of the Night - Skeleton_90
+      rect:
+        serializedVersion: 2
+        x: 525
+        y: 470
+        width: 10
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bef08ee5372114c60800000000000000
+      internalID: 7800536316305215467
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStation - Castlevania Symphony of the Night - Skeleton_91
+      rect:
+        serializedVersion: 2
+        x: 565
+        y: 472
+        width: 12
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 104347c1e7b65efe0800000000000000
+      internalID: -1160403139590605823
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStation - Castlevania Symphony of the Night - Skeleton_92
+      rect:
+        serializedVersion: 2
+        x: 584
+        y: 470
+        width: 10
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 114aa78632ee94c40800000000000000
+      internalID: 5497186656026534929
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStation - Castlevania Symphony of the Night - Skeleton_93
+      rect:
+        serializedVersion: 2
+        x: 341
+        y: 472
+        width: 20
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 88e10debfec6af480800000000000000
+      internalID: -8864653139571106168
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStation - Castlevania Symphony of the Night - Skeleton_94
+      rect:
+        serializedVersion: 2
+        x: 402
+        y: 466
+        width: 20
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b279f48a12531ba0800000000000000
+      internalID: -6119457194812804423
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStation - Castlevania Symphony of the Night - Skeleton_95
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 448
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3eef546a033c2e790800000000000000
+      internalID: -7502219415530373405
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStation - Castlevania Symphony of the Night - Skeleton_96
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 440
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d6b55603d8edeb30800000000000000
+      internalID: 4318363610760197845
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStation - Castlevania Symphony of the Night - Skeleton_97
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 420
+        width: 12
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: deb7f96d45e316a10800000000000000
+      internalID: 1900869051826011117
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStation - Castlevania Symphony of the Night - Skeleton_98
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 420
+        width: 10
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e574fe2c406347b40800000000000000
+      internalID: 5437030044221261662
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStation - Castlevania Symphony of the Night - Skeleton_99
+      rect:
+        serializedVersion: 2
+        x: 173
+        y: 420
+        width: 10
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a96f45b13a97c9e0800000000000000
+      internalID: -1601141604220966489
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStation - Castlevania Symphony of the Night - Skeleton_100
+      rect:
+        serializedVersion: 2
+        x: 190
+        y: 432
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7efa9ff02c32df700800000000000000
+      internalID: 575655643771940839
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStation - Castlevania Symphony of the Night - Skeleton_101
+      rect:
+        serializedVersion: 2
+        x: 236
+        y: 424
+        width: 9
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb6c5fdb5546efb40800000000000000
+      internalID: 5475924516351100604
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStation - Castlevania Symphony of the Night - Skeleton_102
+      rect:
+        serializedVersion: 2
+        x: 253
+        y: 426
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a45863ebfeac62c60800000000000000
+      internalID: 7793139336248460618
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStation - Castlevania Symphony of the Night - Skeleton_103
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 393
+        width: 17
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af6f5242fcccf0580800000000000000
+      internalID: -8858636751977711878
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStation - Castlevania Symphony of the Night - Skeleton_104
+      rect:
+        serializedVersion: 2
+        x: 346
+        y: 394
+        width: 40
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c55f47b40b625ebf0800000000000000
+      internalID: -295787661900843684
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStation - Castlevania Symphony of the Night - Skeleton_105
+      rect:
+        serializedVersion: 2
+        x: 417
+        y: 417
+        width: 29
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc5263ad51dc22af0800000000000000
+      internalID: -422549921280416307
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStation - Castlevania Symphony of the Night - Skeleton_106
+      rect:
+        serializedVersion: 2
+        x: 316
+        y: 417
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b809e2722fce19950800000000000000
+      internalID: 6454200265782235275
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStation - Castlevania Symphony of the Night - Skeleton_107
+      rect:
+        serializedVersion: 2
+        x: 497
+        y: 417
+        width: 10
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53359d080c7d00d90800000000000000
+      internalID: -7133464587959446731
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStation - Castlevania Symphony of the Night - Skeleton_108
+      rect:
+        serializedVersion: 2
+        x: 557
+        y: 417
+        width: 9
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f21145ba5883eeb70800000000000000
+      internalID: 8930137257878491439
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStation - Castlevania Symphony of the Night - Skeleton_109
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 391
+        width: 10
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83426979e49e75ff0800000000000000
+      internalID: -47312747304180680
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStation - Castlevania Symphony of the Night - Skeleton_110
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 389
+        width: 9
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 059902eec0da82de0800000000000000
+      internalID: -1357645016605877936
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStation - Castlevania Symphony of the Night - Skeleton_111
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 390
+        width: 10
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 283e5891b93957dc0800000000000000
+      internalID: -3641842429301759102
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStation - Castlevania Symphony of the Night - Skeleton_112
+      rect:
+        serializedVersion: 2
+        x: 117
+        y: 334
+        width: 13
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba48764907d8c7bb0800000000000000
+      internalID: -4936915576839240533
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStation - Castlevania Symphony of the Night - Skeleton_113
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 334
+        width: 26
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57898c8f79c9b0f90800000000000000
+      internalID: -6986318220407302027
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStation - Castlevania Symphony of the Night - Skeleton_114
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 390
+        width: 26
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e54bfb2598a2e420800000000000000
+      internalID: 2657872088743495144
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStation - Castlevania Symphony of the Night - Skeleton_115
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 334
+        width: 9
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f46cb035dadb3040800000000000000
+      internalID: 4628533651233858801
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStation - Castlevania Symphony of the Night - Skeleton_116
+      rect:
+        serializedVersion: 2
+        x: 454
+        y: 304
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91259b17be6f0d5b0800000000000000
+      internalID: -5345501266603060711
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStation - Castlevania Symphony of the Night - Skeleton_117
+      rect:
+        serializedVersion: 2
+        x: 515
+        y: 307
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fbd84e3ce4f45bc60800000000000000
+      internalID: 7833254326593424831
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStation - Castlevania Symphony of the Night - Skeleton_118
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 310
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71115a193bad570e0800000000000000
+      internalID: -2272669972161031913
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStation - Castlevania Symphony of the Night - Skeleton_119
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 286
+        width: 11
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 573e341e3c93831a0800000000000000
+      internalID: -6829645321446628491
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStation - Castlevania Symphony of the Night - Skeleton_120
+      rect:
+        serializedVersion: 2
+        x: 331
+        y: 299
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f15b2ea5b28739ae0800000000000000
+      internalID: -1543758119654214369
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStation - Castlevania Symphony of the Night - Skeleton_121
+      rect:
+        serializedVersion: 2
+        x: 392
+        y: 301
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9533608c30699bcd0800000000000000
+      internalID: -2541835571689016487
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStation - Castlevania Symphony of the Night - Skeleton_122
+      rect:
+        serializedVersion: 2
+        x: 569
+        y: 291
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff690e5cad0983b50800000000000000
+      internalID: 6573162925444339455
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStation - Castlevania Symphony of the Night - Skeleton_123
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 273
+        width: 18
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f64aec97088f1e890800000000000000
+      internalID: -7430384679501519761
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStation - Castlevania Symphony of the Night - Skeleton_124
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 276
+        width: 23
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 383148568f8c62a00800000000000000
+      internalID: 731492958674883459
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStation - Castlevania Symphony of the Night - Skeleton_125
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 276
+        width: 27
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2295aaf752559f80800000000000000
+      internalID: -8100477816935181780
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStation - Castlevania Symphony of the Night - Skeleton_126
+      rect:
+        serializedVersion: 2
+        x: 326
+        y: 287
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c3461f5337d107fc0800000000000000
+      internalID: -3499264529803418564
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStation - Castlevania Symphony of the Night - Skeleton_127
+      rect:
+        serializedVersion: 2
+        x: 387
+        y: 264
+        width: 17
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: adbc8f2a1d57454d0800000000000000
+      internalID: -3146760696382305318
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStation - Castlevania Symphony of the Night - Skeleton_128
+      rect:
+        serializedVersion: 2
+        x: 446
+        y: 275
+        width: 13
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b414ed069dff5ac0800000000000000
+      internalID: -3864091134340623177
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStation - Castlevania Symphony of the Night - Skeleton_129
+      rect:
+        serializedVersion: 2
+        x: 509
+        y: 290
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03ead8aeb2e902170800000000000000
+      internalID: 8151689236996533808
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStation - Castlevania Symphony of the Night - Skeleton_130
+      rect:
+        serializedVersion: 2
+        x: 261
+        y: 272
+        width: 24
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 147f1573bafbe6d60800000000000000
+      internalID: 7885450739660748609
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStation - Castlevania Symphony of the Night - Skeleton_131
+      rect:
+        serializedVersion: 2
+        x: 322
+        y: 264
+        width: 18
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12a2fd8392f4b94a0800000000000000
+      internalID: -6585582991632815583
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStation - Castlevania Symphony of the Night - Skeleton_132
+      rect:
+        serializedVersion: 2
+        x: 456
+        y: 259
+        width: 12
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b720086eb3e2d750800000000000000
+      internalID: 6328370833337100215
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStation - Castlevania Symphony of the Night - Skeleton_133
+      rect:
+        serializedVersion: 2
+        x: 501
+        y: 273
+        width: 14
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe4aea8ec83840340800000000000000
+      internalID: 4829129341670434031
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStation - Castlevania Symphony of the Night - Skeleton_134
+      rect:
+        serializedVersion: 2
+        x: 509
+        y: 265
+        width: 20
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d927f0b2898e71e20800000000000000
+      internalID: 3321378990464135837
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStation - Castlevania Symphony of the Night - Skeleton_135
+      rect:
+        serializedVersion: 2
+        x: 561
+        y: 272
+        width: 14
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c0574d27e308dcf0800000000000000
+      internalID: -227427489750232890
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStation - Castlevania Symphony of the Night - Skeleton_136
+      rect:
+        serializedVersion: 2
+        x: 570
+        y: 261
+        width: 20
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36b04b059cb5d9060800000000000000
+      internalID: 6961821519185185635
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStation - Castlevania Symphony of the Night - Skeleton_137
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 225
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf1dd825087d11eb0800000000000000
+      internalID: -4750779185758350852
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStation - Castlevania Symphony of the Night - Skeleton_138
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 224
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66f27f3eb50293bf0800000000000000
+      internalID: -344208317478391962
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStation - Castlevania Symphony of the Night - Skeleton_139
+      rect:
+        serializedVersion: 2
+        x: 166
+        y: 223
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3e63505163e346c0800000000000000
+      internalID: -4160231623661228486
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStation - Castlevania Symphony of the Night - Skeleton_140
+      rect:
+        serializedVersion: 2
+        x: 227
+        y: 222
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f6694d5d4a327f80800000000000000
+      internalID: -8110355874988857615
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStation - Castlevania Symphony of the Night - Skeleton_141
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 221
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 855e6e0f031785500800000000000000
+      internalID: 385182223154210136
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStation - Castlevania Symphony of the Night - Skeleton_142
+      rect:
+        serializedVersion: 2
+        x: 349
+        y: 220
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 10795b147a4125600800000000000000
+      internalID: 455449220912355073
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStation - Castlevania Symphony of the Night - Skeleton_143
+      rect:
+        serializedVersion: 2
+        x: 410
+        y: 219
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b2619bc7538d94c0800000000000000
+      internalID: -4279119657831406925
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStation - Castlevania Symphony of the Night - Skeleton_144
+      rect:
+        serializedVersion: 2
+        x: 471
+        y: 218
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 40a66a7067c5ff900800000000000000
+      internalID: 720396127406811652
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStation - Castlevania Symphony of the Night - Skeleton_145
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 205
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c28f2614f4d551090800000000000000
+      internalID: -8064436962756200404
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStation - Castlevania Symphony of the Night - Skeleton_146
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 202
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7685830d13e7d2020800000000000000
+      internalID: 2318648135577524327
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStation - Castlevania Symphony of the Night - Skeleton_147
+      rect:
+        serializedVersion: 2
+        x: 532
+        y: 212
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: adf4fdb3600fa7aa0800000000000000
+      internalID: -6162349230538141734
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStation - Castlevania Symphony of the Night - Skeleton_148
+      rect:
+        serializedVersion: 2
+        x: 595
+        y: 206
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a365a98326261ff10800000000000000
+      internalID: 2301729058558989882
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStation - Castlevania Symphony of the Night - Skeleton_149
+      rect:
+        serializedVersion: 2
+        x: 158
+        y: 199
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f643b0856043fcf0800000000000000
+      internalID: -219761152115915021
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStation - Castlevania Symphony of the Night - Skeleton_150
+      rect:
+        serializedVersion: 2
+        x: 218
+        y: 197
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 780429bed9a269fb0800000000000000
+      internalID: -4641475508208254841
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStation - Castlevania Symphony of the Night - Skeleton_151
+      rect:
+        serializedVersion: 2
+        x: 279
+        y: 194
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3fb08319b9f4c6e0800000000000000
+      internalID: -1818053776259367107
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStation - Castlevania Symphony of the Night - Skeleton_152
+      rect:
+        serializedVersion: 2
+        x: 339
+        y: 191
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a6568983886d3750800000000000000
+      internalID: 6286295569036367524
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStation - Castlevania Symphony of the Night - Skeleton_153
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 172
+        width: 28
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd06469f99cea7090800000000000000
+      internalID: -8035850439030972196
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStation - Castlevania Symphony of the Night - Skeleton_154
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 176
+        width: 12
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e6b65b5304d38320800000000000000
+      internalID: 2559122124158973670
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStation - Castlevania Symphony of the Night - Skeleton_155
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 188
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35a403aef9a185ad0800000000000000
+      internalID: -2713389501359568301
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStation - Castlevania Symphony of the Night - Skeleton_156
+      rect:
+        serializedVersion: 2
+        x: 460
+        y: 185
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3dbfdc22ed7ec4710800000000000000
+      internalID: 1678971702355033043
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStation - Castlevania Symphony of the Night - Skeleton_157
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 172
+        width: 12
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e79bdc77571e67270800000000000000
+      internalID: 8248027662213036414
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStation - Castlevania Symphony of the Night - Skeleton_158
+      rect:
+        serializedVersion: 2
+        x: 109
+        y: 161
+        width: 6
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: abc88debf115b5a80800000000000000
+      internalID: -8477092676807127878
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStation - Castlevania Symphony of the Night - Skeleton_159
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 172
+        width: 12
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53066eb1095d51ba0800000000000000
+      internalID: -6118749703792861131
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStation - Castlevania Symphony of the Night - Skeleton_160
+      rect:
+        serializedVersion: 2
+        x: 521
+        y: 177
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f8339a55c5789190800000000000000
+      internalID: -7955479251261376269
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStation - Castlevania Symphony of the Night - Skeleton_161
+      rect:
+        serializedVersion: 2
+        x: 583
+        y: 169
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 870f943046c4c86a0800000000000000
+      internalID: -6445692974238404488
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStation - Castlevania Symphony of the Night - Skeleton_162
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 154
+        width: 6
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b02b3a972589209f0800000000000000
+      internalID: -503672728316562933
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStation - Castlevania Symphony of the Night - Skeleton_163
+      rect:
+        serializedVersion: 2
+        x: 231
+        y: 149
+        width: 6
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fae84f38233b99820800000000000000
+      internalID: 2925566462497427119
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStation - Castlevania Symphony of the Night - Skeleton_164
+      rect:
+        serializedVersion: 2
+        x: 268
+        y: 165
+        width: 14
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b16830e8e6706bad0800000000000000
+      internalID: -2686951956269529573
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStation - Castlevania Symphony of the Night - Skeleton_165
+      rect:
+        serializedVersion: 2
+        x: 328
+        y: 160
+        width: 14
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7774354f4161fc580800000000000000
+      internalID: -8804794467231774857
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStation - Castlevania Symphony of the Night - Skeleton_166
+      rect:
+        serializedVersion: 2
+        x: 287
+        y: 148
+        width: 20
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c90538e28bfefbc70800000000000000
+      internalID: 8989166955588178076
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStation - Castlevania Symphony of the Night - Skeleton_167
+      rect:
+        serializedVersion: 2
+        x: 390
+        y: 154
+        width: 13
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 575e9249a9062c530800000000000000
+      internalID: 3873764846519051637
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStation - Castlevania Symphony of the Night - Skeleton_168
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 145
+        width: 12
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f12561f3fe87ee3a0800000000000000
+      internalID: -6634232232119217633
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStation - Castlevania Symphony of the Night - Skeleton_169
+      rect:
+        serializedVersion: 2
+        x: 472
+        y: 139
+        width: 12
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 79fa30b0748b04ba0800000000000000
+      internalID: -6106678479447412841
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStation - Castlevania Symphony of the Night - Skeleton_170
+      rect:
+        serializedVersion: 2
+        x: 573
+        y: 141
+        width: 12
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a22a14ba0845be80800000000000000
+      internalID: -8163539538730671456
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStation - Castlevania Symphony of the Night - Skeleton_171
+      rect:
+        serializedVersion: 2
+        x: 349
+        y: 142
+        width: 20
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6461c80687096ac40800000000000000
+      internalID: 5523260839706760774
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStation - Castlevania Symphony of the Night - Skeleton_172
+      rect:
+        serializedVersion: 2
+        x: 410
+        y: 136
+        width: 20
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e82de6a5c3a6ed60800000000000000
+      internalID: 7919197064082041058
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStation - Castlevania Symphony of the Night - Skeleton_173
+      rect:
+        serializedVersion: 2
+        x: 509
+        y: 141
+        width: 13
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2343b2c5e9ba6ce50800000000000000
+      internalID: 6829334581593453618
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStation - Castlevania Symphony of the Night - Skeleton_174
+      rect:
+        serializedVersion: 2
+        x: 533
+        y: 139
+        width: 10
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ab3662c49478cdc0800000000000000
+      internalID: -3618514118326731864
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStation - Castlevania Symphony of the Night - Skeleton_175
+      rect:
+        serializedVersion: 2
+        x: 592
+        y: 139
+        width: 10
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b74e96ec472ca3f0800000000000000
+      internalID: -888291815258699853
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStation - Castlevania Symphony of the Night - Skeleton_176
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 117
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b81c2cc0d55d9390800000000000000
+      internalID: -7809991823523571535
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStation - Castlevania Symphony of the Night - Skeleton_177
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 109
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ca78829f46277210800000000000000
+      internalID: 1330574338113960640
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStation - Castlevania Symphony of the Night - Skeleton_178
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 89
+        width: 12
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ff5a96cb695157e0800000000000000
+      internalID: -1778542058406256654
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStation - Castlevania Symphony of the Night - Skeleton_179
+      rect:
+        serializedVersion: 2
+        x: 122
+        y: 89
+        width: 10
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92919b1df5cd399d0800000000000000
+      internalID: -2768627041804150487
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStation - Castlevania Symphony of the Night - Skeleton_180
+      rect:
+        serializedVersion: 2
+        x: 181
+        y: 89
+        width: 10
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c4115e6d3afe7700800000000000000
+      internalID: 540144147081794754
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStation - Castlevania Symphony of the Night - Skeleton_181
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 101
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a0674c596d52e530800000000000000
+      internalID: 3882768535847919783
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStation - Castlevania Symphony of the Night - Skeleton_182
+      rect:
+        serializedVersion: 2
+        x: 244
+        y: 93
+        width: 9
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 540c9488d6b550510800000000000000
+      internalID: 1514717375676137541
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStation - Castlevania Symphony of the Night - Skeleton_183
+      rect:
+        serializedVersion: 2
+        x: 261
+        y: 95
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41d7c61dd47b07170800000000000000
+      internalID: 8174234868531363092
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStation - Castlevania Symphony of the Night - Skeleton_184
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 62
+        width: 17
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e16ed726a925ba30800000000000000
+      internalID: 4230333218594644449
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStation - Castlevania Symphony of the Night - Skeleton_185
+      rect:
+        serializedVersion: 2
+        x: 354
+        y: 63
+        width: 40
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed702fda7c323e3d0800000000000000
+      internalID: -3178657571469654050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStation - Castlevania Symphony of the Night - Skeleton_186
+      rect:
+        serializedVersion: 2
+        x: 425
+        y: 86
+        width: 29
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1f1811c9b34ce420800000000000000
+      internalID: 2660575944956714781
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStation - Castlevania Symphony of the Night - Skeleton_187
+      rect:
+        serializedVersion: 2
+        x: 324
+        y: 86
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1657a76d73cb24270800000000000000
+      internalID: 8233350016794260833
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStation - Castlevania Symphony of the Night - Skeleton_188
+      rect:
+        serializedVersion: 2
+        x: 505
+        y: 86
+        width: 10
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75b176c33e5e40a60800000000000000
+      internalID: 7639483632060930903
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStation - Castlevania Symphony of the Night - Skeleton_189
+      rect:
+        serializedVersion: 2
+        x: 565
+        y: 86
+        width: 9
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2d9f4c95284a3280800000000000000
+      internalID: -9062851973756248785
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStation - Castlevania Symphony of the Night - Skeleton_190
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 60
+        width: 10
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c3b2da9be5d49a6e0800000000000000
+      internalID: -1825843104684627140
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStation - Castlevania Symphony of the Night - Skeleton_191
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 58
+        width: 9
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55b1b96da5fb15a30800000000000000
+      internalID: 4202350324181834581
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStation - Castlevania Symphony of the Night - Skeleton_192
+      rect:
+        serializedVersion: 2
+        x: 109
+        y: 59
+        width: 10
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 149be8a46443d2bb0800000000000000
+      internalID: -4959250138161825471
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStation - Castlevania Symphony of the Night - Skeleton_193
+      rect:
+        serializedVersion: 2
+        x: 125
+        y: 3
+        width: 13
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 408aee3ff0016c770800000000000000
+      internalID: 8630603396605192196
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStation - Castlevania Symphony of the Night - Skeleton_194
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 3
+        width: 26
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12a40899d91f58810800000000000000
+      internalID: 1767084088000268833
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStation - Castlevania Symphony of the Night - Skeleton_195
+      rect:
+        serializedVersion: 2
+        x: 232
+        y: 59
+        width: 26
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa684e35f9f7d8fa0800000000000000
+      internalID: -5796836823071947089
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStation - Castlevania Symphony of the Night - Skeleton_196
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 3
+        width: 9
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 43a676b0b4dcd8cb0800000000000000
+      internalID: -4860002700665329100
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
