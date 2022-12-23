@@ -15,13 +15,13 @@ public class Enemy : Character
     void Start()
     {
         if (viewBuffer == null)
-            GetComponent<PhotonView>().RPC("BufferPhotonView", RpcTarget.AllBuffered);
+            gameObject.GetPhotonView().RPC("BufferPhotonView", RpcTarget.AllBuffered);
     }
 
     [PunRPC]
     void BufferPhotonView()
     {
-        viewBuffer = GetComponent<PhotonView>();
+        viewBuffer = gameObject.GetPhotonView();
         print("Done: " + gameObject.name + ", viewID: " + viewBuffer.ViewID);
     }
 

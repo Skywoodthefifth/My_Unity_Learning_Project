@@ -38,7 +38,7 @@ public class Player : Character
     void Start()
     {
         if (viewBuffer == null)
-            GetComponent<PhotonView>().RPC("BufferPhotonView", RpcTarget.AllBuffered);
+            gameObject.GetPhotonView().RPC("BufferPhotonView", RpcTarget.AllBuffered);
 
         ResetCharacter();
 
@@ -47,7 +47,7 @@ public class Player : Character
     [PunRPC]
     void BufferPhotonView()
     {
-        viewBuffer = GetComponent<PhotonView>();
+        viewBuffer = gameObject.GetPhotonView();
         print("Done: " + gameObject.name + ", viewID: " + viewBuffer.ViewID);
     }
     void Update()
@@ -56,7 +56,7 @@ public class Player : Character
         // {
         //     KillCharacter();
         // }
-       
+
 
         if (viewBuffer.IsMine)
         {
@@ -77,7 +77,7 @@ public class Player : Character
                     {
                         weapon._attackDamage = weapon._baseAttackDamage + item.quantity;
                     }
-                    if(item.itemType == Item.ItemType.ARMOR)
+                    if (item.itemType == Item.ItemType.ARMOR)
                     {
                         maxHitPoints = startingHitPoints + item.quantity;
                     }
@@ -102,25 +102,26 @@ public class Player : Character
                 switch (hitObject.itemType)
                 {
                     case Item.ItemType.COIN:
-
-                        shouldDisappear = inventory.AddItem(hitObject);
-
-                        break;
-                    
                     case Item.ItemType.ATTACK:
-                    case Item.ItemType.ARMOR:
+
 
                         shouldDisappear = inventory.AddItem(hitObject);
                         print("Added item into inventory " + hitObject.name);
 
                         break;
+                    case Item.ItemType.ARMOR:
 
+                        shouldDisappear = inventory.AddItem(hitObject);
+                        UpdateInventory();
+                        AdjustHitPoints(hitObject.quantity);
+                        print("Added item into inventory " + hitObject.name);
 
+                        break;
                     case Item.ItemType.HEALTH:
-
 
                         shouldDisappear = AdjustHitPoints(hitObject.quantity);
                         break;
+
                     case Item.ItemType.EXPERIENCE:
 
                         shouldDisappear = AddExperience(hitObject.quantity);
@@ -180,7 +181,7 @@ public class Player : Character
                 experience = 0;
                 expToGain = level * 1000;
                 print("Level increased by 1: " + level);
-                menuLevelUp.gameObject.SetActive(true);                
+                menuLevelUp.gameObject.SetActive(true);
             }
         }
     }

@@ -28,7 +28,7 @@ public class MovementController : MonoBehaviour
     {
         rb2D = GetComponent<Rigidbody2D>();
 
-        view = GetComponent<PhotonView>();
+        view = gameObject.GetPhotonView();
 
         animator = GetComponent<Animator>();
 
@@ -50,8 +50,14 @@ public class MovementController : MonoBehaviour
 
     private void MoveCharacter()
     {
-        if(isDashing)
+        if (isDashing)
         {
+            return;
+        }
+
+        if (Input.GetKeyDown(KeyCode.LeftShift) && canDash)
+        {
+            StartCoroutine(Dash());
             return;
         }
 
@@ -60,9 +66,6 @@ public class MovementController : MonoBehaviour
 
         movement.Normalize();
         rb2D.velocity = movement * movementSpeed;
-
-       
-
     }
 
 
@@ -70,12 +73,7 @@ public class MovementController : MonoBehaviour
     private void UpdateState()
     {
 
-        if (isDashing)
-        {
-            return;
-        }
-
-        if (Mathf.Approximately(movement.x, 0.0f) && Mathf.Approximately(movement.y, 0.0f))
+        if (Mathf.Approximately(movement.x, 0.0f) && Mathf.Approximately(movement.y, 0.0f) && isDashing == false)
         {
             animator.SetBool("isWalking", false);
         }
@@ -85,14 +83,6 @@ public class MovementController : MonoBehaviour
         }
         animator.SetFloat("xDir", movement.x);
         animator.SetFloat("yDir", movement.y);
-
-
-        if (Input.GetKeyDown(KeyCode.LeftShift) && canDash)
-        {
-            StartCoroutine(Dash());
-        }
-
-
 
     }
 

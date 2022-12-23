@@ -31,7 +31,7 @@ public class RPGGameManager : MonoBehaviourPunCallbacks
     void Start()
     {
         if (viewBuffer == null)
-            GetComponent<PhotonView>().RPC("BufferPhotonView", RpcTarget.AllBuffered);
+            gameObject.GetPhotonView().RPC("BufferPhotonView", RpcTarget.AllBuffered);
 
         SetupScene();
 
@@ -43,7 +43,7 @@ public class RPGGameManager : MonoBehaviourPunCallbacks
     [PunRPC]
     void BufferPhotonView()
     {
-        viewBuffer = GetComponent<PhotonView>();
+        viewBuffer = gameObject.GetPhotonView();
         print("Done: " + gameObject.name + ", viewID: " + viewBuffer.ViewID);
     }
 
@@ -76,11 +76,14 @@ public class RPGGameManager : MonoBehaviourPunCallbacks
 
     public void DestroyObject(GameObject gameObjectToDestroy)
     {
-
-        if (gameObjectToDestroy.GetComponent<PhotonView>().IsMine == false)
-            viewBuffer.RPC("OthersDestroyObject", RpcTarget.Others, gameObjectToDestroy.GetComponent<PhotonView>().ViewID);
-        else
-            PhotonNetwork.Destroy(gameObjectToDestroy);
+        if (gameObjectToDestroy != null)
+        {
+            PhotonView gameObjectToDestroyViewBuffer = gameObjectToDestroy.GetPhotonView();
+            if (gameObjectToDestroyViewBuffer.IsMine == false)
+                viewBuffer.RPC("OthersDestroyObject", RpcTarget.Others, gameObjectToDestroyViewBuffer.ViewID);
+            else
+                PhotonNetwork.Destroy(gameObjectToDestroy);
+        }
     }
 
     public GameObject InstantiateObject(GameObject gameObjectToInstantiate, Vector3 position, Quaternion rotation)
@@ -92,15 +95,11 @@ public class RPGGameManager : MonoBehaviourPunCallbacks
     [PunRPC]
     void OthersDestroyObject(int viewID)
     {
-        if (PhotonView.Find(viewID).IsMine)
+        PhotonView gameObjectToDestroyViewBuffer = PhotonView.Find(viewID);
+        if (gameObjectToDestroyViewBuffer.IsMine && gameObjectToDestroyViewBuffer.gameObject != null)
         {
-            PhotonNetwork.Destroy(PhotonView.Find(viewID).gameObject);
+            PhotonNetwork.Destroy(gameObjectToDestroyViewBuffer.gameObject);
         }
-    }
-
-    void OpenMenu()
-    {
-        
     }
 
 

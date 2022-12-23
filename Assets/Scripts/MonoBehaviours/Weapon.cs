@@ -56,24 +56,28 @@ public class Weapon : MonoBehaviour
 
     private void Attack()
     {
-        Collider2D[] objs = Physics2D.OverlapCircleAll(_attackPoint.position, _attackRange, _attackMask);
-
-        foreach (var obj in objs)
+        if (viewBuffer.IsMine)
         {
-            if (obj.TryGetComponent<Enemy>(out Enemy enemy) && obj is BoxCollider2D)
+            Collider2D[] objs = Physics2D.OverlapCircleAll(_attackPoint.position, _attackRange, _attackMask);
+
+            foreach (var obj in objs)
             {
-                viewBuffer.RPC("DamageCoroutine", RpcTarget.All, enemy.gameObject.GetComponent<PhotonView>().ViewID);
+                if (obj.gameObject.CompareTag("Enemy") && obj is BoxCollider2D)
+                {
+                    viewBuffer.RPC("DamageCoroutine", RpcTarget.All, obj.gameObject.GetPhotonView().ViewID, this._attackDamage);
+                }
             }
         }
     }
 
     [PunRPC]
-    void DamageCoroutine(int viewID)
+    void DamageCoroutine(int viewID, int damage)
     {
-        if (gameObject != null && gameObject.activeSelf == true && viewBuffer.IsMine == true)
+        PhotonView enemyViewBuffer = PhotonView.Find(viewID);
+        if (enemyViewBuffer != null)
         {
-            Enemy enemy = PhotonView.Find(viewID).gameObject.GetComponent<Enemy>();
-            StartCoroutine(enemy.DamageCharacter(_attackDamage, 0.0f));
+            Enemy enemy = enemyViewBuffer.gameObject.GetComponent<Enemy>();
+            StartCoroutine(enemy.DamageCharacter(damage, 0.0f));
         }
 
     }
@@ -89,7 +93,7 @@ public class Weapon : MonoBehaviour
     void Start()
     {
         if (viewBuffer == null)
-            GetComponent<PhotonView>().RPC("BufferPhotonViewWeapon", RpcTarget.AllBuffered);
+            gameObject.GetPhotonView().RPC("BufferPhotonViewWeapon", RpcTarget.AllBuffered);
 
         _attackDamage = _baseAttackDamage;
 
@@ -125,7 +129,7 @@ public class Weapon : MonoBehaviour
     [PunRPC]
     void BufferPhotonViewWeapon()
     {
-        viewBuffer = GetComponent<PhotonView>();
+        viewBuffer = gameObject.GetPhotonView();
         print("Done Weapon: " + gameObject.name + ", viewID: " + viewBuffer.ViewID);
     }
 

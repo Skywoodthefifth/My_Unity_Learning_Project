@@ -14,23 +14,16 @@ public class HealthBar : MonoBehaviour
 
     public Text hpText;
 
-    float maxHitPoints;
-
     void Start()
     {
-        maxHitPoints = character.maxHitPoints;
-        
     }
 
     void Update()
     {
-      
         if (character != null)
         {
-            maxHitPoints = character.maxHitPoints;
-            meterImage.fillAmount = character.hitPoints / maxHitPoints;
-            hpText.text = "HP: " + character.hitPoints;
-          
+            meterImage.fillAmount = character.hitPoints / character.maxHitPoints;
+            hpText.text = "HP: " + Mathf.Round(meterImage.fillAmount * 100.0f);
         }
     }
 }

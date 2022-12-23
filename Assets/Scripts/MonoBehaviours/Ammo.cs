@@ -11,13 +11,13 @@ public class Ammo : MonoBehaviour
     void Start()
     {
         if (viewBuffer == null)
-            GetComponent<PhotonView>().RPC("BufferPhotonView", RpcTarget.AllBuffered);
+            gameObject.GetPhotonView().RPC("BufferPhotonView", RpcTarget.AllBuffered);
     }
 
     [PunRPC]
     void BufferPhotonView()
     {
-        viewBuffer = GetComponent<PhotonView>();
+        viewBuffer = gameObject.GetPhotonView();
         print("Done: " + gameObject.name + ", viewID: " + viewBuffer.ViewID);
     }
 
@@ -33,7 +33,7 @@ public class Ammo : MonoBehaviour
         {
             //Enemy enemy = collision.gameObject.GetComponent<Enemy>();
 
-            viewBuffer.RPC("DamageCoroutine", RpcTarget.All, collision.gameObject.GetComponent<PhotonView>().ViewID);
+            viewBuffer.RPC("DamageCoroutine", RpcTarget.All, collision.gameObject.GetPhotonView().ViewID);
 
             //RPGGameManager.sharedInstance.DestroyObject(gameObject);
             gameObject.SetActive(false);
@@ -43,9 +43,10 @@ public class Ammo : MonoBehaviour
     [PunRPC]
     void DamageCoroutine(int viewID)
     {
-        if (gameObject != null && gameObject.activeSelf == true && viewBuffer.IsMine == true)
+        PhotonView enemyViewBuffer = PhotonView.Find(viewID);
+        if (gameObject != null && gameObject.activeSelf == true && enemyViewBuffer != null)
         {
-            Enemy enemy = PhotonView.Find(viewID).gameObject.GetComponent<Enemy>();
+            Enemy enemy = enemyViewBuffer.gameObject.GetComponent<Enemy>();
             StartCoroutine(enemy.DamageCharacter(damageInflicted, 0.0f));
         }
     }

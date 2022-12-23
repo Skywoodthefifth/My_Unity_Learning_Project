@@ -14,6 +14,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objectName: Armor
   sprite: {fileID: 1801263428120863714, guid: 0a0c8a1a40a5fdf4d9df46e6eb3c0913, type: 3}
-  quantity: 0
+  quantity: 1
   stackable: 1
   itemType: 4
