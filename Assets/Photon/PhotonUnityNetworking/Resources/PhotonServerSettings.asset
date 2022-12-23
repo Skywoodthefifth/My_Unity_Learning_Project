@@ -44,6 +44,8 @@ MonoBehaviour:
   - OthersDestroyObject
   - BufferPhotonView
   - BufferPhotonViewWeapon
+  - MoveCharacter
+  - SetEmitting
   DisableAutoOpenWizard: 1
   ShowSettings: 0
   DevRegionSetOnce: 1

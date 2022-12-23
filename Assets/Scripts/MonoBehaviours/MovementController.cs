@@ -47,7 +47,7 @@ public class MovementController : MonoBehaviour
             MoveCharacter();
         }
     }
-
+    
     private void MoveCharacter()
     {
         if (isDashing)
@@ -91,12 +91,24 @@ public class MovementController : MonoBehaviour
         canDash = false;
         isDashing = true;
         rb2D.velocity = new Vector2(transform.localScale.x * dashingPower, 0f);
-        trailRenderer.emitting = true;
+        view.RPC("SetEmitting",RpcTarget.All,view.ViewID,true);
         yield return new WaitForSeconds(dashingTime);
-        trailRenderer.emitting = false;
+        view.RPC("SetEmitting", RpcTarget.All, view.ViewID, false);
         isDashing = false;
         yield return new WaitForSeconds(dashingCoolDown);
         canDash = true;
+
+    }
+
+    [PunRPC]
+    void SetEmitting(int viewID, bool emitting)
+    {
+        PhotonView viewBuffer = PhotonView.Find(viewID);
+        if(viewBuffer != null)
+        {
+            viewBuffer.gameObject.GetComponent<TrailRenderer>().emitting = emitting;
+        }
+
 
     }
 }
