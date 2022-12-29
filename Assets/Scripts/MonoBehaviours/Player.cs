@@ -56,7 +56,7 @@ public class Player : Character
         // {
         //     KillCharacter();
         // }
-
+        print(hitPoints + "");
 
         if (viewBuffer.IsMine)
         {
@@ -149,7 +149,10 @@ public class Player : Character
                 print("Adjusted HitPoints by: " + amount + ". New value: " + hitPoints);
                 return true;
             }
-            return false;
+            else if (hitPoints > maxHitPoints)
+                hitPoints = maxHitPoints;
+            else
+                return false;
         }
 
         return false;
