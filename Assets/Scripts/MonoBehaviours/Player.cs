@@ -184,7 +184,7 @@ public class Player : Character
                 experience = 0;
                 expToGain = level * 1000;
                 print("Level increased by 1: " + level);
-                menuLevelUp.gameObject.SetActive(true);
+                //menuLevelUp.gameObject.SetActive(true);
             }
         }
     }

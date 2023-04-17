@@ -594,7 +594,7 @@ TextureImporter:
       213: -4860002700665329100
     second: PlayStation - Castlevania Symphony of the Night - Skeleton_196
   externalObjects: {}
-  serializedVersion: 11
+  serializedVersion: 12
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -614,6 +614,8 @@ TextureImporter:
   isReadable: 0
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -645,10 +647,14 @@ TextureImporter:
   textureType: 8
   textureShape: 1
   singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
   maxTextureSizeSet: 0
   compressionQualitySet: 0
   textureFormatSet: 0
+  ignorePngGamma: 0
   applyGammaDecoding: 0
+  cookieLightType: 1
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
@@ -676,6 +682,30 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
     buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
@@ -4836,6 +4866,204 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
+    nameFileIdTable:
+      PlayStation - Castlevania Symphony of the Night - Skeleton_0: -9150640933825970413
+      PlayStation - Castlevania Symphony of the Night - Skeleton_1: -4552842890753891493
+      PlayStation - Castlevania Symphony of the Night - Skeleton_10: -6918206660794631088
+      PlayStation - Castlevania Symphony of the Night - Skeleton_100: 575655643771940839
+      PlayStation - Castlevania Symphony of the Night - Skeleton_101: 5475924516351100604
+      PlayStation - Castlevania Symphony of the Night - Skeleton_102: 7793139336248460618
+      PlayStation - Castlevania Symphony of the Night - Skeleton_103: -8858636751977711878
+      PlayStation - Castlevania Symphony of the Night - Skeleton_104: -295787661900843684
+      PlayStation - Castlevania Symphony of the Night - Skeleton_105: -422549921280416307
+      PlayStation - Castlevania Symphony of the Night - Skeleton_106: 6454200265782235275
+      PlayStation - Castlevania Symphony of the Night - Skeleton_107: -7133464587959446731
+      PlayStation - Castlevania Symphony of the Night - Skeleton_108: 8930137257878491439
+      PlayStation - Castlevania Symphony of the Night - Skeleton_109: -47312747304180680
+      PlayStation - Castlevania Symphony of the Night - Skeleton_11: -5877807543430208008
+      PlayStation - Castlevania Symphony of the Night - Skeleton_110: -1357645016605877936
+      PlayStation - Castlevania Symphony of the Night - Skeleton_111: -3641842429301759102
+      PlayStation - Castlevania Symphony of the Night - Skeleton_112: -4936915576839240533
+      PlayStation - Castlevania Symphony of the Night - Skeleton_113: -6986318220407302027
+      PlayStation - Castlevania Symphony of the Night - Skeleton_114: 2657872088743495144
+      PlayStation - Castlevania Symphony of the Night - Skeleton_115: 4628533651233858801
+      PlayStation - Castlevania Symphony of the Night - Skeleton_116: -5345501266603060711
+      PlayStation - Castlevania Symphony of the Night - Skeleton_117: 7833254326593424831
+      PlayStation - Castlevania Symphony of the Night - Skeleton_118: -2272669972161031913
+      PlayStation - Castlevania Symphony of the Night - Skeleton_119: -6829645321446628491
+      PlayStation - Castlevania Symphony of the Night - Skeleton_12: -1162764626324817927
+      PlayStation - Castlevania Symphony of the Night - Skeleton_120: -1543758119654214369
+      PlayStation - Castlevania Symphony of the Night - Skeleton_121: -2541835571689016487
+      PlayStation - Castlevania Symphony of the Night - Skeleton_122: 6573162925444339455
+      PlayStation - Castlevania Symphony of the Night - Skeleton_123: -7430384679501519761
+      PlayStation - Castlevania Symphony of the Night - Skeleton_124: 731492958674883459
+      PlayStation - Castlevania Symphony of the Night - Skeleton_125: -8100477816935181780
+      PlayStation - Castlevania Symphony of the Night - Skeleton_126: -3499264529803418564
+      PlayStation - Castlevania Symphony of the Night - Skeleton_127: -3146760696382305318
+      PlayStation - Castlevania Symphony of the Night - Skeleton_128: -3864091134340623177
+      PlayStation - Castlevania Symphony of the Night - Skeleton_129: 8151689236996533808
+      PlayStation - Castlevania Symphony of the Night - Skeleton_13: -1649863929793737715
+      PlayStation - Castlevania Symphony of the Night - Skeleton_130: 7885450739660748609
+      PlayStation - Castlevania Symphony of the Night - Skeleton_131: -6585582991632815583
+      PlayStation - Castlevania Symphony of the Night - Skeleton_132: 6328370833337100215
+      PlayStation - Castlevania Symphony of the Night - Skeleton_133: 4829129341670434031
+      PlayStation - Castlevania Symphony of the Night - Skeleton_134: 3321378990464135837
+      PlayStation - Castlevania Symphony of the Night - Skeleton_135: -227427489750232890
+      PlayStation - Castlevania Symphony of the Night - Skeleton_136: 6961821519185185635
+      PlayStation - Castlevania Symphony of the Night - Skeleton_137: -4750779185758350852
+      PlayStation - Castlevania Symphony of the Night - Skeleton_138: -344208317478391962
+      PlayStation - Castlevania Symphony of the Night - Skeleton_139: -4160231623661228486
+      PlayStation - Castlevania Symphony of the Night - Skeleton_14: 7106264823756619087
+      PlayStation - Castlevania Symphony of the Night - Skeleton_140: -8110355874988857615
+      PlayStation - Castlevania Symphony of the Night - Skeleton_141: 385182223154210136
+      PlayStation - Castlevania Symphony of the Night - Skeleton_142: 455449220912355073
+      PlayStation - Castlevania Symphony of the Night - Skeleton_143: -4279119657831406925
+      PlayStation - Castlevania Symphony of the Night - Skeleton_144: 720396127406811652
+      PlayStation - Castlevania Symphony of the Night - Skeleton_145: -8064436962756200404
+      PlayStation - Castlevania Symphony of the Night - Skeleton_146: 2318648135577524327
+      PlayStation - Castlevania Symphony of the Night - Skeleton_147: -6162349230538141734
+      PlayStation - Castlevania Symphony of the Night - Skeleton_148: 2301729058558989882
+      PlayStation - Castlevania Symphony of the Night - Skeleton_149: -219761152115915021
+      PlayStation - Castlevania Symphony of the Night - Skeleton_15: -38912393425978451
+      PlayStation - Castlevania Symphony of the Night - Skeleton_150: -4641475508208254841
+      PlayStation - Castlevania Symphony of the Night - Skeleton_151: -1818053776259367107
+      PlayStation - Castlevania Symphony of the Night - Skeleton_152: 6286295569036367524
+      PlayStation - Castlevania Symphony of the Night - Skeleton_153: -8035850439030972196
+      PlayStation - Castlevania Symphony of the Night - Skeleton_154: 2559122124158973670
+      PlayStation - Castlevania Symphony of the Night - Skeleton_155: -2713389501359568301
+      PlayStation - Castlevania Symphony of the Night - Skeleton_156: 1678971702355033043
+      PlayStation - Castlevania Symphony of the Night - Skeleton_157: 8248027662213036414
+      PlayStation - Castlevania Symphony of the Night - Skeleton_158: -8477092676807127878
+      PlayStation - Castlevania Symphony of the Night - Skeleton_159: -6118749703792861131
+      PlayStation - Castlevania Symphony of the Night - Skeleton_16: -2865024202896818314
+      PlayStation - Castlevania Symphony of the Night - Skeleton_160: -7955479251261376269
+      PlayStation - Castlevania Symphony of the Night - Skeleton_161: -6445692974238404488
+      PlayStation - Castlevania Symphony of the Night - Skeleton_162: -503672728316562933
+      PlayStation - Castlevania Symphony of the Night - Skeleton_163: 2925566462497427119
+      PlayStation - Castlevania Symphony of the Night - Skeleton_164: -2686951956269529573
+      PlayStation - Castlevania Symphony of the Night - Skeleton_165: -8804794467231774857
+      PlayStation - Castlevania Symphony of the Night - Skeleton_166: 8989166955588178076
+      PlayStation - Castlevania Symphony of the Night - Skeleton_167: 3873764846519051637
+      PlayStation - Castlevania Symphony of the Night - Skeleton_168: -6634232232119217633
+      PlayStation - Castlevania Symphony of the Night - Skeleton_169: -6106678479447412841
+      PlayStation - Castlevania Symphony of the Night - Skeleton_17: 8761482720385433670
+      PlayStation - Castlevania Symphony of the Night - Skeleton_170: -8163539538730671456
+      PlayStation - Castlevania Symphony of the Night - Skeleton_171: 5523260839706760774
+      PlayStation - Castlevania Symphony of the Night - Skeleton_172: 7919197064082041058
+      PlayStation - Castlevania Symphony of the Night - Skeleton_173: 6829334581593453618
+      PlayStation - Castlevania Symphony of the Night - Skeleton_174: -3618514118326731864
+      PlayStation - Castlevania Symphony of the Night - Skeleton_175: -888291815258699853
+      PlayStation - Castlevania Symphony of the Night - Skeleton_176: -7809991823523571535
+      PlayStation - Castlevania Symphony of the Night - Skeleton_177: 1330574338113960640
+      PlayStation - Castlevania Symphony of the Night - Skeleton_178: -1778542058406256654
+      PlayStation - Castlevania Symphony of the Night - Skeleton_179: -2768627041804150487
+      PlayStation - Castlevania Symphony of the Night - Skeleton_18: 6461804365172058701
+      PlayStation - Castlevania Symphony of the Night - Skeleton_180: 540144147081794754
+      PlayStation - Castlevania Symphony of the Night - Skeleton_181: 3882768535847919783
+      PlayStation - Castlevania Symphony of the Night - Skeleton_182: 1514717375676137541
+      PlayStation - Castlevania Symphony of the Night - Skeleton_183: 8174234868531363092
+      PlayStation - Castlevania Symphony of the Night - Skeleton_184: 4230333218594644449
+      PlayStation - Castlevania Symphony of the Night - Skeleton_185: -3178657571469654050
+      PlayStation - Castlevania Symphony of the Night - Skeleton_186: 2660575944956714781
+      PlayStation - Castlevania Symphony of the Night - Skeleton_187: 8233350016794260833
+      PlayStation - Castlevania Symphony of the Night - Skeleton_188: 7639483632060930903
+      PlayStation - Castlevania Symphony of the Night - Skeleton_189: -9062851973756248785
+      PlayStation - Castlevania Symphony of the Night - Skeleton_19: -6807603607161079195
+      PlayStation - Castlevania Symphony of the Night - Skeleton_190: -1825843104684627140
+      PlayStation - Castlevania Symphony of the Night - Skeleton_191: 4202350324181834581
+      PlayStation - Castlevania Symphony of the Night - Skeleton_192: -4959250138161825471
+      PlayStation - Castlevania Symphony of the Night - Skeleton_193: 8630603396605192196
+      PlayStation - Castlevania Symphony of the Night - Skeleton_194: 1767084088000268833
+      PlayStation - Castlevania Symphony of the Night - Skeleton_195: -5796836823071947089
+      PlayStation - Castlevania Symphony of the Night - Skeleton_196: -4860002700665329100
+      PlayStation - Castlevania Symphony of the Night - Skeleton_2: 6588324933066355316
+      PlayStation - Castlevania Symphony of the Night - Skeleton_20: -187875014257753944
+      PlayStation - Castlevania Symphony of the Night - Skeleton_21: -1148063348417013989
+      PlayStation - Castlevania Symphony of the Night - Skeleton_22: -6054750718624048468
+      PlayStation - Castlevania Symphony of the Night - Skeleton_23: -7511532651318960719
+      PlayStation - Castlevania Symphony of the Night - Skeleton_24: 6809424651499420335
+      PlayStation - Castlevania Symphony of the Night - Skeleton_25: 5133572415691764674
+      PlayStation - Castlevania Symphony of the Night - Skeleton_26: 9081400017808539202
+      PlayStation - Castlevania Symphony of the Night - Skeleton_27: -4153743371323172954
+      PlayStation - Castlevania Symphony of the Night - Skeleton_28: 2345402292025667907
+      PlayStation - Castlevania Symphony of the Night - Skeleton_29: 196249716932904403
+      PlayStation - Castlevania Symphony of the Night - Skeleton_3: -5200745149032836752
+      PlayStation - Castlevania Symphony of the Night - Skeleton_30: -4771281876595486811
+      PlayStation - Castlevania Symphony of the Night - Skeleton_31: -881721532490105114
+      PlayStation - Castlevania Symphony of the Night - Skeleton_32: -6750717289815866316
+      PlayStation - Castlevania Symphony of the Night - Skeleton_33: -5288362143778760969
+      PlayStation - Castlevania Symphony of the Night - Skeleton_34: -1385407178039696904
+      PlayStation - Castlevania Symphony of the Night - Skeleton_35: -8132372544500638521
+      PlayStation - Castlevania Symphony of the Night - Skeleton_36: -3192469397861094238
+      PlayStation - Castlevania Symphony of the Night - Skeleton_37: 3943780206549947372
+      PlayStation - Castlevania Symphony of the Night - Skeleton_38: -77926369389704828
+      PlayStation - Castlevania Symphony of the Night - Skeleton_39: -7203733014840492347
+      PlayStation - Castlevania Symphony of the Night - Skeleton_4: -6655005469112781163
+      PlayStation - Castlevania Symphony of the Night - Skeleton_40: 8482276412120427715
+      PlayStation - Castlevania Symphony of the Night - Skeleton_41: 2681953024105302084
+      PlayStation - Castlevania Symphony of the Night - Skeleton_42: 5822627290298978875
+      PlayStation - Castlevania Symphony of the Night - Skeleton_43: 3884655503906409125
+      PlayStation - Castlevania Symphony of the Night - Skeleton_44: 2063310533405417745
+      PlayStation - Castlevania Symphony of the Night - Skeleton_45: -624532600220854396
+      PlayStation - Castlevania Symphony of the Night - Skeleton_46: 8192984322082870309
+      PlayStation - Castlevania Symphony of the Night - Skeleton_47: 5213569999502629885
+      PlayStation - Castlevania Symphony of the Night - Skeleton_48: 8567549031684264609
+      PlayStation - Castlevania Symphony of the Night - Skeleton_49: -2436885560166559838
+      PlayStation - Castlevania Symphony of the Night - Skeleton_5: 127934674260393337
+      PlayStation - Castlevania Symphony of the Night - Skeleton_50: -8153043555336367324
+      PlayStation - Castlevania Symphony of the Night - Skeleton_51: 9142051119513824846
+      PlayStation - Castlevania Symphony of the Night - Skeleton_52: -1429790659797763420
+      PlayStation - Castlevania Symphony of the Night - Skeleton_53: 5802765537693834902
+      PlayStation - Castlevania Symphony of the Night - Skeleton_54: 859040339513992262
+      PlayStation - Castlevania Symphony of the Night - Skeleton_55: -4994534549209044333
+      PlayStation - Castlevania Symphony of the Night - Skeleton_56: -6589543884233006274
+      PlayStation - Castlevania Symphony of the Night - Skeleton_57: 4200199444495287644
+      PlayStation - Castlevania Symphony of the Night - Skeleton_58: -4882582460535199754
+      PlayStation - Castlevania Symphony of the Night - Skeleton_59: -2224791565756763292
+      PlayStation - Castlevania Symphony of the Night - Skeleton_6: 6804557488550312054
+      PlayStation - Castlevania Symphony of the Night - Skeleton_60: -2425570088283664303
+      PlayStation - Castlevania Symphony of the Night - Skeleton_61: 666517109566602133
+      PlayStation - Castlevania Symphony of the Night - Skeleton_62: 955839971434467775
+      PlayStation - Castlevania Symphony of the Night - Skeleton_63: -2960705984615551695
+      PlayStation - Castlevania Symphony of the Night - Skeleton_64: -8759649828989910631
+      PlayStation - Castlevania Symphony of the Night - Skeleton_65: -9100509350574485563
+      PlayStation - Castlevania Symphony of the Night - Skeleton_66: -3760037546994230950
+      PlayStation - Castlevania Symphony of the Night - Skeleton_67: -4517700246058038746
+      PlayStation - Castlevania Symphony of the Night - Skeleton_68: -3753154877729456676
+      PlayStation - Castlevania Symphony of the Night - Skeleton_69: -7349405417430544134
+      PlayStation - Castlevania Symphony of the Night - Skeleton_7: -6020047892268475769
+      PlayStation - Castlevania Symphony of the Night - Skeleton_70: -4644517221748851749
+      PlayStation - Castlevania Symphony of the Night - Skeleton_71: -5655980989160211497
+      PlayStation - Castlevania Symphony of the Night - Skeleton_72: -1916048403317087474
+      PlayStation - Castlevania Symphony of the Night - Skeleton_73: 921482940805833941
+      PlayStation - Castlevania Symphony of the Night - Skeleton_74: -4100164624625445717
+      PlayStation - Castlevania Symphony of the Night - Skeleton_75: 6026310392114205534
+      PlayStation - Castlevania Symphony of the Night - Skeleton_76: 6498307131635488653
+      PlayStation - Castlevania Symphony of the Night - Skeleton_77: -2060945023809222367
+      PlayStation - Castlevania Symphony of the Night - Skeleton_78: -8858882276451918681
+      PlayStation - Castlevania Symphony of the Night - Skeleton_79: -744983366053591737
+      PlayStation - Castlevania Symphony of the Night - Skeleton_8: -1433491548739930743
+      PlayStation - Castlevania Symphony of the Night - Skeleton_80: -4690931848774352560
+      PlayStation - Castlevania Symphony of the Night - Skeleton_81: 8916528947701134354
+      PlayStation - Castlevania Symphony of the Night - Skeleton_82: -879774576546248304
+      PlayStation - Castlevania Symphony of the Night - Skeleton_83: 4366650722619668223
+      PlayStation - Castlevania Symphony of the Night - Skeleton_84: -4491226522989744707
+      PlayStation - Castlevania Symphony of the Night - Skeleton_85: -5357043743794929724
+      PlayStation - Castlevania Symphony of the Night - Skeleton_86: 23758132314086735
+      PlayStation - Castlevania Symphony of the Night - Skeleton_87: -601150513470287364
+      PlayStation - Castlevania Symphony of the Night - Skeleton_88: 86336926016457244
+      PlayStation - Castlevania Symphony of the Night - Skeleton_89: 3717931960636392827
+      PlayStation - Castlevania Symphony of the Night - Skeleton_9: -3327430763477859307
+      PlayStation - Castlevania Symphony of the Night - Skeleton_90: 7800536316305215467
+      PlayStation - Castlevania Symphony of the Night - Skeleton_91: -1160403139590605823
+      PlayStation - Castlevania Symphony of the Night - Skeleton_92: 5497186656026534929
+      PlayStation - Castlevania Symphony of the Night - Skeleton_93: -8864653139571106168
+      PlayStation - Castlevania Symphony of the Night - Skeleton_94: -6119457194812804423
+      PlayStation - Castlevania Symphony of the Night - Skeleton_95: -7502219415530373405
+      PlayStation - Castlevania Symphony of the Night - Skeleton_96: 4318363610760197845
+      PlayStation - Castlevania Symphony of the Night - Skeleton_97: 1900869051826011117
+      PlayStation - Castlevania Symphony of the Night - Skeleton_98: 5437030044221261662
+      PlayStation - Castlevania Symphony of the Night - Skeleton_99: -1601141604220966489
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

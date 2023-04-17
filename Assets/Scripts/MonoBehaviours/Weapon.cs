@@ -138,10 +138,15 @@ public class Weapon : MonoBehaviour
     {
         if (viewBuffer.IsMine)
         {
-            if (Input.GetMouseButtonDown(0))
+            // if (Input.GetMouseButtonDown(0))
+            // {
+            //     isFiring = true;
+            //     //FireAmmo();
+            // }
+
+            if (SerialManager.sharedInstance.buttonStateAttack == 0)
             {
                 isFiring = true;
-                //FireAmmo();
             }
         }
 

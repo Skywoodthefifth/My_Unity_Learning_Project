@@ -47,7 +47,7 @@ public class MovementController : MonoBehaviour
             MoveCharacter();
         }
     }
-    
+
     private void MoveCharacter()
     {
         if (isDashing)
@@ -55,14 +55,23 @@ public class MovementController : MonoBehaviour
             return;
         }
 
-        if (Input.GetKeyDown(KeyCode.LeftShift) && canDash)
+        // if (Input.GetKeyDown(KeyCode.LeftShift) && canDash)
+        // {
+        //     StartCoroutine(Dash());
+        //     return;
+        // }
+
+        if (SerialManager.sharedInstance.buttonStateDash == 0 && canDash)
         {
             StartCoroutine(Dash());
             return;
         }
 
-        movement.x = Input.GetAxisRaw("Horizontal");
-        movement.y = Input.GetAxisRaw("Vertical");
+        // movement.x = Input.GetAxisRaw("Horizontal");
+        // movement.y = Input.GetAxisRaw("Vertical");
+
+        movement.x = SerialManager.sharedInstance.x;
+        movement.y = SerialManager.sharedInstance.y;
 
         movement.Normalize();
         rb2D.velocity = movement * movementSpeed;
@@ -91,7 +100,7 @@ public class MovementController : MonoBehaviour
         canDash = false;
         isDashing = true;
         rb2D.velocity = new Vector2(transform.localScale.x * dashingPower, 0f);
-        view.RPC("SetEmitting",RpcTarget.All,view.ViewID,true);
+        view.RPC("SetEmitting", RpcTarget.All, view.ViewID, true);
         yield return new WaitForSeconds(dashingTime);
         view.RPC("SetEmitting", RpcTarget.All, view.ViewID, false);
         isDashing = false;
@@ -104,7 +113,7 @@ public class MovementController : MonoBehaviour
     void SetEmitting(int viewID, bool emitting)
     {
         PhotonView viewBuffer = PhotonView.Find(viewID);
-        if(viewBuffer != null)
+        if (viewBuffer != null)
         {
             viewBuffer.gameObject.GetComponent<TrailRenderer>().emitting = emitting;
         }
